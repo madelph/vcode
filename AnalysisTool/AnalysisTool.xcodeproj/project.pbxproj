@@ -17,6 +17,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		946C17290E3B088100395879 /* KappaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946C17280E3B088100395879 /* KappaController.m */; };
 		D41BC0860D00E94F004FE294 /* BDAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC07F0D00E94F004FE294 /* BDAlias.m */; };
 		D41BC0880D00E94F004FE294 /* NSImage-NJRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC0830D00E94F004FE294 /* NSImage-NJRExtensions.m */; };
 		D41BC0890D00E94F004FE294 /* NSString-NJRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC0850D00E94F004FE294 /* NSString-NJRExtensions.m */; };
@@ -62,6 +63,8 @@
 		32CA4F630368D1EE00C91783 /* AnalysisTool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisTool_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* VData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946C17270E3B088100395879 /* KappaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KappaController.h; sourceTree = "<group>"; };
+		946C17280E3B088100395879 /* KappaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KappaController.m; sourceTree = "<group>"; };
 		D41BC07E0D00E94F004FE294 /* BDAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDAlias.h; path = ../VCode/3rdParty/BDAlias.h; sourceTree = SOURCE_ROOT; };
 		D41BC07F0D00E94F004FE294 /* BDAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDAlias.m; path = ../VCode/3rdParty/BDAlias.m; sourceTree = SOURCE_ROOT; };
 		D41BC0820D00E94F004FE294 /* NSImage-NJRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage-NJRExtensions.h"; path = "../VCode/3rdParty/NSImage-NJRExtensions.h"; sourceTree = SOURCE_ROOT; };
@@ -228,6 +231,8 @@
 			children = (
 				D41BC0A00D00FD10004FE294 /* AgreementController.h */,
 				D41BC0A10D00FD10004FE294 /* AgreementController.m */,
+				946C17270E3B088100395879 /* KappaController.h */,
+				946C17280E3B088100395879 /* KappaController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				D41BC0A20D00FD10004FE294 /* AgreementController.m in Sources */,
 				D4F320820D01145100CB566A /* NJRFSObjectSelector.m in Sources */,
 				D434749C0D73BE4400EBEA1C /* DataFileLog.m in Sources */,
+				946C17290E3B088100395879 /* KappaController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
