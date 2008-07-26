@@ -13,6 +13,10 @@
 @interface KappaController : NSObject {
 	IBOutlet NSTableView *kappaTable;
 	IBOutlet AgreementController *agreementController;
+	NSMutableArray *intervals;
 }
+-(int)opportunityEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval;
+- (void)validateIntervals;
+- (void)updateGUI;
 
 @end
