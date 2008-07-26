@@ -13,17 +13,19 @@
 #import "EventTrack.h"
 #import "MiniDoc.h"
 
+@class KappaController;
 
 @interface AgreementController : NSObject {
 	MiniDoc * primaryCoderDoc;
 	MiniDoc * secondaryCoderDoc;
-
+	
 	NSMutableArray * totaledTracks;
 	
 	IBOutlet float markTolerance;
 	IBOutlet float durationTolerance;
 	
 	IBOutlet NSTableView *trackTable;
+	IBOutlet KappaController *kappaController;
 
 	IBOutlet NJRFSObjectSelector *primarySelector;
 	IBOutlet NJRFSObjectSelector *secondarySelector;
@@ -61,6 +63,8 @@
 -(int)agreeingCommentCountForTrackNamed:(NSString *)trackName;
 -(int)opportunityCommentCountForTrackNamed:(NSString *)trackName;
 
+-(MiniDoc*) primaryCoderDoc;
+-(MiniDoc*) secondaryCoderDoc;
 -(float) markTolerance;
 -(void) setMarkTolerance:(float)tol;
 -(float) durationTolerance;

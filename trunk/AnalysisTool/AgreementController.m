@@ -439,6 +439,14 @@
 
 #pragma mark - Accessors
 
+-(MiniDoc*) primaryCoderDoc{
+	return primaryCoderDoc;
+}
+
+-(MiniDoc*) secondaryCoderDoc{
+	return secondaryCoderDoc;
+}
+
 -(float) markTolerance{
 	return markTolerance;
 }
@@ -522,6 +530,7 @@
 - (void)updateGUI{
 	[trackTable reloadData];
 	[self calculateTotals];
+	[kappaController updateGUI];
 	return;
 }
 
