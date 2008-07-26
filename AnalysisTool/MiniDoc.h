@@ -23,6 +23,7 @@
 	NSMutableArray *paths; //their Paths, we'll archive and rebuild this
 	NSMutableArray *offsets; //NSNumbers representing signed longs of ms off main video.
 	BOOL isStacked;
+	QTTime movieLength;
 }
 
 - (BOOL)loadDataRepresentation:(NSData *)data ofType:(NSString *)aType;

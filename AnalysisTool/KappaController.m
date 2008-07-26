@@ -17,7 +17,17 @@
 
 #pragma mark - Kappa Calculations
 //returns number of events in track
--(int)opportunityEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
+- (int)occurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
+	if(coderDoc != nil ){
+		EventTrack * track = [coderDoc trackNamed:trackName];
+		if(track != nil){
+			NSArray * events = [track eventList];
+			return [events count];
+		}
+	}
+	return 0;
+}
+- (int)nonOccurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
 	if(coderDoc != nil ){
 		EventTrack * track = [coderDoc trackNamed:trackName];
 		if(track != nil){
@@ -46,6 +56,8 @@
 	return;
 }
 
+
+
 #pragma mark - Table Glue Code
 // just returns the item for the right row
 - (id)tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{  
@@ -58,8 +70,30 @@
 		return [intervals objectAtIndex:rowIndex]; 
 	}else if([[aTableColumn identifier] compare: @"kappaOp"]==NSOrderedSame){
 		//could filter to only marks at the correct interval...
-		int opportunities = [self opportunityEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:opportunities];  
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithInt:occurences];  
+	}else if([[aTableColumn identifier] compare: @"kappaOs"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithInt:occurences];  
+	}else if([[aTableColumn identifier] compare: @"kappaNp"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		//int opportunities = 
+		return [NSNumber numberWithInt:occurences];  
+	}else if([[aTableColumn identifier] compare: @"kappaNs"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithInt:occurences];  
+	}else if([[aTableColumn identifier] compare: @"kappaU"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		//int opportunities = 
+		return [NSNumber numberWithInt:occurences];  
+	}else if([[aTableColumn identifier] compare: @"kappaA"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithInt:occurences];  
 	}
 	
 	return nil;
