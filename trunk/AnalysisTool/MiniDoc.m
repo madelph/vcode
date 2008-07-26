@@ -150,6 +150,14 @@
 	[newMovie retain];
 	[moviePath release];
 	moviePath = newMovie;
+	NSData * movieData = [NSData dataWithContentsOfFile:moviePath];
+	if(movieData)
+		//movieLength = (QTTime)[[QTMovie movieWithData:movieData error:nil] duration];
+		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
+		
+	else
+		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
+	
 }
 
 - (NSString *) moviePath{
