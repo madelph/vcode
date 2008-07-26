@@ -11,9 +11,13 @@
 
 @implementation KappaController
 
+- (void) awakeFromNib{
+	intervals = [[NSMutableArray alloc] init];
+}
+
 #pragma mark - Kappa Calculations
 //returns number of events in track
--(int)opportunityEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(float)interval{
+-(int)opportunityEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
 	if(coderDoc != nil ){
 		EventTrack * track = [coderDoc trackNamed:trackName];
 		if(track != nil){
@@ -26,7 +30,18 @@
 
 #pragma mark - Helpers
 
+- (void)validateIntervals{
+	
+	while([intervals count] < [[agreementController intersectingTrackNames] count]){
+		[intervals addObject:[NSNumber numberWithInt:[[agreementController primaryCoderDoc] interval]]];
+	}
+	while([intervals count] < [[agreementController intersectingTrackNames] count]){
+		[intervals removeLastObject];
+	}
+}
+
 - (void)updateGUI{
+	[self validateIntervals];
 	[kappaTable reloadData];
 	return;
 }
@@ -38,9 +53,12 @@
 	NSString * thisTrackName = [[agreementController intersectingTrackNames]objectAtIndex:rowIndex];
 	if([[aTableColumn identifier] compare: @"trackName"]==NSOrderedSame){
 		return thisTrackName;  
+	}else if([[aTableColumn identifier] compare: @"kappaInterval"]==NSOrderedSame){
+		//could filter to only marks at the correct interval...
+		return [intervals objectAtIndex:rowIndex]; 
 	}else if([[aTableColumn identifier] compare: @"kappaOp"]==NSOrderedSame){
 		//could filter to only marks at the correct interval...
-		int opportunities = [self opportunityEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[agreementController primaryCoderDoc] interval]];
+		int opportunities = [self opportunityEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
 		return [NSNumber numberWithInt:opportunities];  
 	}
 	
@@ -59,7 +77,8 @@
 	
 	if([[aTableColumn identifier] compare: @"kappaInterval"]==NSOrderedSame){
 		//Set the local value for the interval to check in.
-		NSLog(@"%@",anObject);
+		//NSLog(@"%@",anObject);
+		[intervals replaceObjectAtIndex:rowIndex withObject: anObject];
 	}
 	return;
 }
