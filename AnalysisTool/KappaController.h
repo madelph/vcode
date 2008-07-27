@@ -23,7 +23,7 @@
 - (float)calculatePcForTrackNamed:(NSString *)trackName withInterval:(int)interval;
 - (float)calculateKappaForTrackNamed:(NSString *)trackName withInterval:(int)interval;
 
-- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName;
+- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName row:(int) rowIndex;
 
 - (void)validateIntervals;
 - (void)updateGUI;

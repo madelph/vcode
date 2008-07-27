@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="29"/>
 			<integer value="721"/>
+			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2827,7 +2827,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#</string>
 																					</object>
@@ -2901,7 +2901,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#</string>
 																					</object>
@@ -2975,7 +2975,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#</string>
 																					</object>
@@ -3049,7 +3049,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#</string>
 																					</object>
@@ -3123,7 +3123,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#</string>
 																					</object>
@@ -3202,13 +3202,13 @@ MiBhZ3JlZSB0aGF0IGFuIGV2ZW50IGRpZCBub3QgaGFwcGVuKS4gCg</string>
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
 																						<reference ref="920539619"/>
-																						<string>#,###.###</string>
+																						<string>#,##0.###</string>
 																						<reference ref="9"/>
-																						<string>#,###.###</string>
+																						<string>#,##0.###</string>
 																					</object>
 																				</object>
-																				<string key="NS.positiveformat">#,###.###</string>
-																				<string key="NS.negativeformat">#,###.###</string>
+																				<string key="NS.positiveformat">#,##0.###</string>
+																				<string key="NS.negativeformat">#,##0.###</string>
 																				<nil key="NS.positiveattrs"/>
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
@@ -3277,7 +3277,7 @@ MiBhZ3JlZSB0aGF0IGFuIGV2ZW50IGRpZCBub3QgaGFwcGVuKS4gCg</string>
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<string>#,###.###</string>
 																						<reference ref="9"/>
 																						<string>#,###.###</string>
@@ -3352,7 +3352,7 @@ MiBhZ3JlZSB0aGF0IGFuIGV2ZW50IGRpZCBub3QgaGFwcGVuKS4gCg</string>
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																						<string>#,###.##</string>
 																					</object>

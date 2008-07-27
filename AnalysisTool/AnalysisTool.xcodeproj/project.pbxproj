@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D4C861C0DDAB219004E5A57 /* VCodeVDataDocs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1D4C861B0DDAB219004E5A57 /* VCodeVDataDocs.pdf */; };
 		1D4C861E0DDAB23A004E5A57 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4C861D0DDAB23A004E5A57 /* Sparkle.framework */; };
 		1D4C86580DDAB449004E5A57 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D4C861D0DDAB23A004E5A57 /* Sparkle.framework */; };
 		1D57852D0DD2DE4700B82741 /* HMBlkAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57852C0DD2DE4700B82741 /* HMBlkAppKit.framework */; };
@@ -18,6 +17,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		946C17290E3B088100395879 /* KappaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946C17280E3B088100395879 /* KappaController.m */; };
+		94F1DB520E3CA6990028E6D0 /* VCodeVDataDocs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 94F1DB510E3CA6990028E6D0 /* VCodeVDataDocs.pdf */; };
 		D41BC0860D00E94F004FE294 /* BDAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC07F0D00E94F004FE294 /* BDAlias.m */; };
 		D41BC0880D00E94F004FE294 /* NSImage-NJRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC0830D00E94F004FE294 /* NSImage-NJRExtensions.m */; };
 		D41BC0890D00E94F004FE294 /* NSString-NJRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BC0850D00E94F004FE294 /* NSString-NJRExtensions.m */; };
@@ -52,7 +52,6 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		1D4C861B0DDAB219004E5A57 /* VCodeVDataDocs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = VCodeVDataDocs.pdf; path = ../VCode/VCodeVDataDocs.pdf; sourceTree = SOURCE_ROOT; };
 		1D4C861D0DDAB23A004E5A57 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../VCode/3rdParty/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		1D57852C0DD2DE4700B82741 /* HMBlkAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMBlkAppKit.framework; path = ../VCode/3rdParty/HMBlkAppKit.framework; sourceTree = SOURCE_ROOT; };
 		1DCE04BE0DA46A900031883D /* VData.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VData.icns; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		8D1107320486CEB800E47090 /* VData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946C17270E3B088100395879 /* KappaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KappaController.h; sourceTree = "<group>"; };
 		946C17280E3B088100395879 /* KappaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KappaController.m; sourceTree = "<group>"; };
+		94F1DB510E3CA6990028E6D0 /* VCodeVDataDocs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = VCodeVDataDocs.pdf; sourceTree = "<group>"; };
 		D41BC07E0D00E94F004FE294 /* BDAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDAlias.h; path = ../VCode/3rdParty/BDAlias.h; sourceTree = SOURCE_ROOT; };
 		D41BC07F0D00E94F004FE294 /* BDAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDAlias.m; path = ../VCode/3rdParty/BDAlias.m; sourceTree = SOURCE_ROOT; };
 		D41BC0820D00E94F004FE294 /* NSImage-NJRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage-NJRExtensions.h"; path = "../VCode/3rdParty/NSImage-NJRExtensions.h"; sourceTree = SOURCE_ROOT; };
@@ -170,8 +170,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1D4C861B0DDAB219004E5A57 /* VCodeVDataDocs.pdf */,
 				1DCE04BE0DA46A900031883D /* VData.icns */,
+				94F1DB510E3CA6990028E6D0 /* VCodeVDataDocs.pdf */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -284,7 +284,7 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DCE04BF0DA46A900031883D /* VData.icns in Resources */,
-				1D4C861C0DDAB219004E5A57 /* VCodeVDataDocs.pdf in Resources */,
+				94F1DB520E3CA6990028E6D0 /* VCodeVDataDocs.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

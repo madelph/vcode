@@ -266,7 +266,7 @@
 			 (float)[self opportunityCommentCountForTrackNamed:thisTrackName],
 			 ((float)[self agreeingCommentCountForTrackNamed:thisTrackName])/
 			 ((float)[self opportunityCommentCountForTrackNamed:thisTrackName]),
-			 ((NSString*)[kappaController exportDataToCSForTrackNamed:thisTrackName])
+			 ((NSString*)[kappaController exportDataToCSForTrackNamed:thisTrackName  row:i])
 			];
 
 		}
