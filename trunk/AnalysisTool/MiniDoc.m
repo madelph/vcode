@@ -8,6 +8,7 @@
 //  license file for more details.
 
 #import "MiniDoc.h"
+#import <QTKit/QTKit.h>
 
 
 @implementation MiniDoc
@@ -24,7 +25,7 @@
 		paths = [[[NSMutableArray alloc] initWithCapacity:5] retain];
 		isShowingSound = YES;
 		isStacked = NO;
-
+		movieLength = QTMakeTime(0,0);
     }else{
 		[self release];
 		return nil;
@@ -151,13 +152,17 @@
 	[moviePath release];
 	moviePath = newMovie;
 	NSData * movieData = [NSData dataWithContentsOfFile:moviePath];
-	if(movieData)
-		//movieLength = (QTTime)[[QTMovie movieWithData:movieData error:nil] duration];
-		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
-		
-	else{
-		//we should want to set this to NIL
-		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
+	if(movieData){
+		QTMovie * movieTemp = [QTMovie movieWithData:movieData error:nil];
+		if (movieTemp){
+			movieLength = [movieTemp duration];
+		}else{
+			
+			movieLength = QTMakeTime(0,0);
+		}
+		//NSLog(@"%@", QTStringFromTime(movieLength));
+	}else{
+		movieLength = QTMakeTime(0,0);
 	}
 	
 }
@@ -168,6 +173,10 @@
 	}else{
 		return nil;
 	}
+}
+
+- (QTTime) movieLength {
+	return movieLength;
 }
 
 - (void)setDataFile:(NSString *)newDatafilePath

@@ -10,7 +10,7 @@
 #import <Cocoa/Cocoa.h>
 #import "EventTrack.h"
 #import "DataFileLog.h"
-#import "QTKit/QTKit.h"
+#import <QTKit/QTKit.h>
 
 @interface MiniDoc : NSObject {
 	NSMutableArray *eventTracks;
@@ -40,6 +40,7 @@
 
 - (void)setMovie:(NSString *)newMoviePath;
 - (NSString *)moviePath;
+- (QTTime) movieLength;
 - (void)setDataFile:(NSString *)newDatafilePath;
 - (NSString *)dataFilePath;
 - (DataFileLog *)dataFile;

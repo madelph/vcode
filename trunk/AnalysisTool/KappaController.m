@@ -17,8 +17,15 @@
 
 #pragma mark - Kappa Calculations
 - (int)opportunitiesForInterval:(int)interval{
-	
-	return 10;
+	QTTime movieLength = [[agreementController primaryCoderDoc] movieLength];
+	if(movieLength.timeValue != QTMakeTime(0,0).timeValue || movieLength.timeScale != QTMakeTime(0,0).timeScale){
+		QTTime scaled = QTMakeTimeScaled(movieLength, (long)1000);
+		int lengthInSeconds = (int)(scaled.timeValue / (long long) 1000);
+		int result = ceil((double)lengthInSeconds/(double)interval);
+		return result;
+	}else{//couldn't load movie...
+		return 0;
+	}
 }
 
 //returns number of events in track
@@ -57,7 +64,11 @@
 - (float)calculatePaForTrackNamed:(NSString *)trackName withInterval:(int)interval{
 	int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:trackName withInterval:interval];
 	int opportunities = [self opportunitiesForInterval:interval];
-	return agreementsOfOccurencesAndNonOccurrences/opportunities;
+	if (opportunities){
+		return agreementsOfOccurencesAndNonOccurrences/opportunities;
+	}else{
+		return 0;
+	}
 }
 - (float)calculatePcForTrackNamed:(NSString *)trackName withInterval:(int)interval{
 	int opportunities = [self opportunitiesForInterval:interval];
@@ -69,14 +80,22 @@
 	int nonoccurences = nonoccurencesP*nonoccurencesS;
 	int numerator = occurences+nonoccurences;
 	int denominator = opportunities*opportunities;
-	return numerator/denominator;
+	if(denominator){
+		return numerator/denominator;
+	}else{
+		return 0;
+	}
 }
 - (float)calculateKappaForTrackNamed:(NSString *)trackName withInterval:(int)interval{
 	float pC= [self calculatePcForTrackNamed:trackName withInterval:interval];
 	float pA= [self calculatePaForTrackNamed:trackName withInterval:interval];
 	float numerator = pA-pC;
 	float denominator = 1-pC;
-	return numerator/denominator;
+	if(denominator)
+		return numerator/denominator;
+	else
+		return 0;
+	
 }
 
 #pragma mark - Helpers
