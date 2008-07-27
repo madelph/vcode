@@ -362,6 +362,41 @@
 
 }
 
+//returns an array of NSArrays[2] (primaryEvent, secondaryEvent)
+//of events pairs that occur in given trackname
+-(NSArray *)agreeingEventsNoToleranceForTrackNamed:(NSString *)trackName{
+	NSMutableArray * agreeingEvents = [NSMutableArray array];
+	if(primaryCoderDoc != nil && secondaryCoderDoc != nil){
+		EventTrack * primaryTrack = [primaryCoderDoc trackNamed:trackName];
+		EventTrack * secondaryTrack = [secondaryCoderDoc trackNamed:trackName];
+		
+		if(primaryTrack != nil && secondaryTrack != nil){
+			NSArray * primaryEvents = [primaryTrack eventList];
+			NSMutableArray * secondaryEvents = [NSMutableArray arrayWithArray:[secondaryTrack eventList]];
+			for(int i = 0; i<[primaryEvents count]; i++){
+				Event * primaryEvent = [primaryEvents objectAtIndex:i];
+				for(int j = 0; j<[secondaryEvents count]; j++){
+					Event * secondaryEvent = [secondaryEvents objectAtIndex:j];
+					if((float)(abs([secondaryEvent startTime] - [primaryEvent startTime])) <= (0 * 1000)){
+						[agreeingEvents addObject:[NSArray arrayWithObjects:primaryEvent, secondaryEvent, nil]];
+						[secondaryEvents removeObject:secondaryEvent];
+						break;
+					}
+				}
+			}
+		}
+	}
+	return agreeingEvents;
+	
+}
+
+//returns number of events that agree for start time
+-(int)agreeingEventCountNoToleranceForTrackNamed:(NSString *)trackName{
+	return [[self agreeingEventsNoToleranceForTrackNamed:trackName] count];
+	
+}
+
+
 //returns number of events in track
 -(int)opportunityEventCountForTrackNamed:(NSString *)trackName{
 	if(primaryCoderDoc != nil ){
