@@ -18,6 +18,7 @@
 #pragma mark - Kappa Calculations
 //returns number of events in track
 - (int)occurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
+	//could eventually put in check to make sure we are only checking at the interval
 	if(coderDoc != nil ){
 		EventTrack * track = [coderDoc trackNamed:trackName];
 		if(track != nil){
@@ -33,12 +34,48 @@
 }
 //returns the non events
 - (int)nonOccurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
+	//could eventually put in check to make sure we are only checking at the interval
 	if(coderDoc != nil ){
 		int occurences = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:coderDoc withInterval:interval];
 		int opportunities = [self opportunitiesForInterval:interval];
 		return opportunities- occurences;
 	}
 	return 0;
+}
+
+//number of agreements for both occurrences AND nonoccurrence between both coders
+- (int)numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:(NSString *)trackName withInterval:(int)interval{
+	int agreements = [agreementController agreeingEventCountForTrackNamed:trackName];
+	int primaryOccurences = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+	int secondaryOccurences = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+	int nonAgreements = [self opportunitiesForInterval:interval]-primaryOccurences-secondaryOccurences+agreements;
+	
+	return nonAgreements+agreements;
+}
+
+- (float)calculatePaForTrackNamed:(NSString *)trackName withInterval:(int)interval{
+	int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:trackName withInterval:interval];
+	int opportunities = [self opportunitiesForInterval:interval];
+	return agreementsOfOccurencesAndNonOccurrences/opportunities;
+}
+- (float)calculatePcForTrackNamed:(NSString *)trackName withInterval:(int)interval{
+	int opportunities = [self opportunitiesForInterval:interval];
+	int occurencesP = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+	int occurencesS = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+	int occurences = occurencesP*occurencesS;
+	int nonoccurencesP = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+	int nonoccurencesS = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+	int nonoccurences = nonoccurencesP*nonoccurencesS;
+	int numerator = occurences+nonoccurences;
+	int denominator = opportunities*opportunities;
+	return numerator/denominator;
+}
+- (float)calculateKappaForTrackNamed:(NSString *)trackName withInterval:(int)interval{
+	float pC= [self calculatePcForTrackNamed:trackName withInterval:interval];
+	float pA= [self calculatePaForTrackNamed:trackName withInterval:interval];
+	float numerator = pA-pC;
+	float denominator = 1-pC;
+	return numerator/denominator;
 }
 
 #pragma mark - Helpers
@@ -90,9 +127,17 @@
 		int opportunities = [self opportunitiesForInterval:[[intervals objectAtIndex:rowIndex] intValue]];
 		return [NSNumber numberWithInt:opportunities];  
 	}else if([[aTableColumn identifier] compare: @"kappaA"]==NSOrderedSame){
-		//could filter to only marks at the correct interval...
-		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:occurences];  
+		int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithInt:agreementsOfOccurencesAndNonOccurrences];  
+	}else if([[aTableColumn identifier] compare: @"kappaPa"]==NSOrderedSame){
+		float pA = [self calculatePaForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithFloat:pA];  
+	}else if([[aTableColumn identifier] compare: @"kappaPc"]==NSOrderedSame){
+		float pC= [self calculatePcForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithFloat:pC];  
+	}else if([[aTableColumn identifier] compare: @"kappaKappa"]==NSOrderedSame){
+		float kappaKappa = [self calculateKappaForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
+		return [NSNumber numberWithFloat:kappaKappa];  
 	}
 	
 	return nil;
