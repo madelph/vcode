@@ -45,7 +45,6 @@
 - (DataFileLog *)dataFile;
 
 
-
 - (NSArray *) eventTracks;
 - (EventTrack *) trackNamed:(NSString *)name;
 

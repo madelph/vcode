@@ -155,8 +155,10 @@
 		//movieLength = (QTTime)[[QTMovie movieWithData:movieData error:nil] duration];
 		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
 		
-	else
+	else{
+		//we should want to set this to NIL
 		movieLength = QTTimeFromString(@"00:00:00:00.00/600");
+	}
 	
 }
 
