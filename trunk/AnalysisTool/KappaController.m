@@ -16,6 +16,11 @@
 }
 
 #pragma mark - Kappa Calculations
+- (int)opportunitiesForInterval:(int)interval{
+	
+	return 10;
+}
+
 //returns number of events in track
 - (int)occurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
 	//could eventually put in check to make sure we are only checking at the interval
@@ -27,10 +32,6 @@
 		}
 	}
 	return 0;
-}
-- (int)opportunitiesForInterval:(int)interval{
-	
-	return 10;
 }
 //returns the non events
 - (int)nonOccurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval{
@@ -95,7 +96,14 @@
 	return;
 }
 
+#pragma mark - Accessors
 
+- (NSMutableArray *)intervals{
+	return intervals;
+}
+- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName{
+	return @"nan,nan,nan,nan,nan,nan,nan,nan,nan";
+}
 
 #pragma mark - Table Glue Code
 // just returns the item for the right row
