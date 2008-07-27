@@ -21,7 +21,7 @@
 	if(movieLength.timeValue != QTMakeTime(0,0).timeValue || movieLength.timeScale != QTMakeTime(0,0).timeScale){
 		QTTime scaled = QTMakeTimeScaled(movieLength, (long)1000);
 		int lengthInSeconds = (int)(scaled.timeValue / (long long) 1000);
-		int result = ceil((double)lengthInSeconds/(double)interval);
+		int result = ceil((double)lengthInSeconds/(double)interval)+1;
 		return result;
 	}else{//couldn't load movie...
 		return 0;
@@ -62,8 +62,8 @@
 }
 
 - (float)calculatePaForTrackNamed:(NSString *)trackName withInterval:(int)interval{
-	int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:trackName withInterval:interval];
-	int opportunities = [self opportunitiesForInterval:interval];
+	float agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:trackName withInterval:interval];
+	float opportunities = [self opportunitiesForInterval:interval];
 	if (opportunities){
 		return agreementsOfOccurencesAndNonOccurrences/opportunities;
 	}else{
@@ -78,8 +78,8 @@
 	int nonoccurencesP = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
 	int nonoccurencesS = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
 	int nonoccurences = nonoccurencesP*nonoccurencesS;
-	int numerator = occurences+nonoccurences;
-	int denominator = opportunities*opportunities;
+	float numerator = occurences+nonoccurences;
+	float denominator = opportunities*opportunities;
 	if(denominator){
 		return numerator/denominator;
 	}else{
@@ -120,53 +120,86 @@
 - (NSMutableArray *)intervals{
 	return intervals;
 }
-- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName{
-	return @"nan,nan,nan,nan,nan,nan,nan,nan,nan";
+- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName  row:(int) rowIndex{
+	
+	int interval = [[intervals objectAtIndex:rowIndex] intValue];
+	int opportunityCheck = [self opportunitiesForInterval:interval];
+	
+	if(opportunityCheck==0)
+		return @"nan,nan,nan,nan,nan,nan,nan,nan,nan";
+	else{
+		int occurencesP = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+		int occurencesS = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+		int nonoccurencesP = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+		int nonoccurencesS = [self nonOccurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+		int opportunities = [self opportunitiesForInterval:interval];
+		int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:trackName withInterval:interval];
+		float pA = [self calculatePaForTrackNamed:trackName withInterval:interval];
+		float pC= [self calculatePcForTrackNamed:trackName withInterval:interval];
+		float kappaKappa = [self calculateKappaForTrackNamed:trackName withInterval:interval];
+		NSString *exportData = [[NSString alloc] initWithFormat:@"%d,%d,%d,%d,%d,%d,%f,%f,%f",occurencesP,occurencesS,nonoccurencesP,nonoccurencesS,opportunities,agreementsOfOccurencesAndNonOccurrences,pA,pC,kappaKappa];
+		
+		return exportData; 
+	}
+	return @"";
 }
 
 #pragma mark - Table Glue Code
 // just returns the item for the right row
 - (id)tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{ 
 	
-	/* -------------------------------------------------------------------------------
-	 * If there is not the original movie file, return N/A, else do the following....
-	 ---------------------------------------------------------------------------------*/
 	
 	//log or something to figure out which table column?
 	NSString * thisTrackName = [[agreementController intersectingTrackNames]objectAtIndex:rowIndex];
-	if([[aTableColumn identifier] compare: @"trackName"]==NSOrderedSame){
-		return thisTrackName;  
-	}else if([[aTableColumn identifier] compare: @"kappaInterval"]==NSOrderedSame){
-		return [intervals objectAtIndex:rowIndex]; 
-	}else if([[aTableColumn identifier] compare: @"kappaOp"]==NSOrderedSame){
-		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:occurences];  
-	}else if([[aTableColumn identifier] compare: @"kappaOs"]==NSOrderedSame){
-		int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:occurences];  
-	}else if([[aTableColumn identifier] compare: @"kappaNp"]==NSOrderedSame){
-		int nonoccurences = [self nonOccurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:nonoccurences];  
-	}else if([[aTableColumn identifier] compare: @"kappaNs"]==NSOrderedSame){
-		int nonoccurences = [self nonOccurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:nonoccurences];  
-	}else if([[aTableColumn identifier] compare: @"kappaU"]==NSOrderedSame){
-		int opportunities = [self opportunitiesForInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:opportunities];  
-	}else if([[aTableColumn identifier] compare: @"kappaA"]==NSOrderedSame){
-		int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithInt:agreementsOfOccurencesAndNonOccurrences];  
-	}else if([[aTableColumn identifier] compare: @"kappaPa"]==NSOrderedSame){
-		float pA = [self calculatePaForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithFloat:pA];  
-	}else if([[aTableColumn identifier] compare: @"kappaPc"]==NSOrderedSame){
-		float pC= [self calculatePcForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithFloat:pC];  
-	}else if([[aTableColumn identifier] compare: @"kappaKappa"]==NSOrderedSame){
-		float kappaKappa = [self calculateKappaForTrackNamed:thisTrackName withInterval:[[intervals objectAtIndex:rowIndex] intValue]];
-		return [NSNumber numberWithFloat:kappaKappa];  
-	}
+	int interval = [[intervals objectAtIndex:rowIndex] intValue];
+	int opportunityCheck = [self opportunitiesForInterval:interval];
 	
+	/* -------------------------------------------------------------------------------
+	 * If there is not the original movie file, return N/A, else do the following....
+	 ---------------------------------------------------------------------------------*/
+	if(opportunityCheck == 0){
+		if([[aTableColumn identifier] compare: @"trackName"]==NSOrderedSame){
+			return thisTrackName;  
+		}else if([[aTableColumn identifier] compare: @"kappaInterval"]==NSOrderedSame){
+			return [intervals objectAtIndex:rowIndex]; 
+		}else{
+			return @"nan";
+		}
+		
+	}else{
+		if([[aTableColumn identifier] compare: @"trackName"]==NSOrderedSame){
+			return thisTrackName;  
+		}else if([[aTableColumn identifier] compare: @"kappaInterval"]==NSOrderedSame){
+			return [intervals objectAtIndex:rowIndex]; 
+		}else if([[aTableColumn identifier] compare: @"kappaOp"]==NSOrderedSame){
+			int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+			return [NSNumber numberWithInt:occurences];  
+		}else if([[aTableColumn identifier] compare: @"kappaOs"]==NSOrderedSame){
+			int occurences = [self occurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+			return [NSNumber numberWithInt:occurences];  
+		}else if([[aTableColumn identifier] compare: @"kappaNp"]==NSOrderedSame){
+			int nonoccurences = [self nonOccurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
+			return [NSNumber numberWithInt:nonoccurences];  
+		}else if([[aTableColumn identifier] compare: @"kappaNs"]==NSOrderedSame){
+			int nonoccurences = [self nonOccurenceEventCountForTrackNamed:thisTrackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
+			return [NSNumber numberWithInt:nonoccurences];  
+		}else if([[aTableColumn identifier] compare: @"kappaU"]==NSOrderedSame){
+			int opportunities = [self opportunitiesForInterval:interval];
+			return [NSNumber numberWithInt:opportunities];  
+		}else if([[aTableColumn identifier] compare: @"kappaA"]==NSOrderedSame){
+			int agreementsOfOccurencesAndNonOccurrences = [self numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:thisTrackName withInterval:interval];
+			return [NSNumber numberWithInt:agreementsOfOccurencesAndNonOccurrences];  
+		}else if([[aTableColumn identifier] compare: @"kappaPa"]==NSOrderedSame){
+			float pA = [self calculatePaForTrackNamed:thisTrackName withInterval:interval];
+			return [NSNumber numberWithFloat:pA];  
+		}else if([[aTableColumn identifier] compare: @"kappaPc"]==NSOrderedSame){
+			float pC= [self calculatePcForTrackNamed:thisTrackName withInterval:interval];
+			return [NSNumber numberWithFloat:pC];  
+		}else if([[aTableColumn identifier] compare: @"kappaKappa"]==NSOrderedSame){
+			float kappaKappa = [self calculateKappaForTrackNamed:thisTrackName withInterval:interval];
+			return [NSNumber numberWithFloat:kappaKappa];  
+		}
+	}
 	return nil;
 	
 }
