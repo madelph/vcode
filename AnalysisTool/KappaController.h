@@ -15,10 +15,18 @@
 	IBOutlet AgreementController *agreementController;
 	NSMutableArray *intervals;
 }
+- (int)opportunitiesForInterval:(int)interval;
 - (int)occurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval;
 - (int)nonOccurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval;
-- (int)opportunitiesForInterval:(int)interval;
+- (int)numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:(NSString *)trackName withInterval:(int)interval;
+- (float)calculatePaForTrackNamed:(NSString *)trackName withInterval:(int)interval;
+- (float)calculatePcForTrackNamed:(NSString *)trackName withInterval:(int)interval;
+- (float)calculateKappaForTrackNamed:(NSString *)trackName withInterval:(int)interval;
+
+- (NSString*)exportDataToCSForTrackNamed:(NSString *)trackName;
+
 - (void)validateIntervals;
 - (void)updateGUI;
+- (NSMutableArray *)intervals;
 
 @end

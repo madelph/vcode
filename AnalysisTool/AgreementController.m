@@ -249,10 +249,10 @@
 		[header appendFormat:@"Possible Tracks: %@\n",[self intersectingTrackNames]];
 		[header appendFormat:@"Tracks Included In Total: %@\n\n",totaledTracks];
 
-		[header appendString:@"Track,evtAgr,evtOpp,evtPct,durAgr,durOpp,durPct,cmtAgr,cmtOpp,cmtPct\n"];
+		[header appendString:@"Track,evtAgr,evtOpp,evtPct,durAgr,durOpp,durPct,cmtAgr,cmtOpp,cmtPct,Op,Os,Np,Ns,U,A,Pa,Pc,K\n"];
 		for(int i=0;i<[[self intersectingTrackNames] count];i++){
 			NSString * thisTrackName = [[self intersectingTrackNames] objectAtIndex:i];
-			[header appendFormat:@"%@,%f,%f,%f,%f,%f,%f,%f,%f,%f\n",
+			[header appendFormat:@"%@,%f,%f,%f,%f,%f,%f,%f,%f,%f,%@\n",
 			 thisTrackName,
 			 (float)[self agreeingEventCountForTrackNamed:thisTrackName],
 			 (float)[self opportunityEventCountForTrackNamed:thisTrackName],
@@ -265,13 +265,14 @@
 			 (float)[self agreeingCommentCountForTrackNamed:thisTrackName],
 			 (float)[self opportunityCommentCountForTrackNamed:thisTrackName],
 			 ((float)[self agreeingCommentCountForTrackNamed:thisTrackName])/
-			 ((float)[self opportunityCommentCountForTrackNamed:thisTrackName])
+			 ((float)[self opportunityCommentCountForTrackNamed:thisTrackName]),
+			 ((NSString*)[kappaController exportDataToCSForTrackNamed:thisTrackName])
 			];
 
 		}
 
 		[header appendString:@"\n"];
-		[header appendFormat:@"%@,%f,%f,%f,%f,%f,%f,%f,%f,%f\n",
+		[header appendFormat:@"%@,%f,%f,%f,%f,%f,%f,%f,%f,%f,nan,nan,nan,nan,nan,nan,nan,nan,nan\n",
 		 @"TOTALS",
 		 evta,
 		 evto,
