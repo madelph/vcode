@@ -17,6 +17,7 @@
 }
 - (int)occurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval;
 - (int)nonOccurenceEventCountForTrackNamed:(NSString *)trackName forCoderDoc:(MiniDoc*)coderDoc withInterval:(int)interval;
+- (int)opportunitiesForInterval:(int)interval;
 - (void)validateIntervals;
 - (void)updateGUI;
 

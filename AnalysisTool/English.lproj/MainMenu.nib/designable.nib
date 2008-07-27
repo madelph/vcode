@@ -2600,7 +2600,7 @@
 															<object class="NSTableView" id="774285341">
 																<reference key="NSNextResponder" ref="1069300742"/>
 																<int key="NSvFlags">256</int>
-																<string key="NSFrameSize">{600, 215}</string>
+																<string key="NSFrameSize">{600, 228}</string>
 																<reference key="NSSuperview" ref="1069300742"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTableHeaderView" key="NSHeaderView" id="42724300">
@@ -2823,7 +2823,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																					</object>
 																				</object>
@@ -2965,7 +2965,7 @@
 																					<object class="NSMutableArray" key="dict.values">
 																						<bool key="EncodedWithXMLCoder">YES</bool>
 																						<reference ref="9"/>
-																						<integer value="1040"/>
+																						<reference ref="920539619"/>
 																						<reference ref="9"/>
 																					</object>
 																				</object>
@@ -3378,7 +3378,7 @@
 																<bool key="NSAllowsTypeSelect">YES</bool>
 															</object>
 														</object>
-														<string key="NSFrame">{{1, 17}, {600, 215}}</string>
+														<string key="NSFrame">{{1, 17}, {600, 228}}</string>
 														<reference key="NSSuperview" ref="673338509"/>
 														<reference key="NSNextKeyView" ref="774285341"/>
 														<reference key="NSDocView" ref="774285341"/>
@@ -3388,7 +3388,7 @@
 													<object class="NSScroller" id="374093334">
 														<reference key="NSNextResponder" ref="673338509"/>
 														<int key="NSvFlags">256</int>
-														<string key="NSFrame">{{601, 17}, {15, 215}}</string>
+														<string key="NSFrame">{{601, 17}, {15, 228}}</string>
 														<reference key="NSSuperview" ref="673338509"/>
 														<reference key="NSTarget" ref="673338509"/>
 														<string key="NSAction">_doScroller:</string>
@@ -3398,7 +3398,7 @@
 													<object class="NSScroller" id="256738328">
 														<reference key="NSNextResponder" ref="673338509"/>
 														<int key="NSvFlags">256</int>
-														<string key="NSFrame">{{1, 232}, {600, 15}}</string>
+														<string key="NSFrame">{{1, 245}, {600, 15}}</string>
 														<reference key="NSSuperview" ref="673338509"/>
 														<int key="NSsFlags">1</int>
 														<reference key="NSTarget" ref="673338509"/>
@@ -3421,7 +3421,7 @@
 													</object>
 													<reference ref="485820370"/>
 												</object>
-												<string key="NSFrame">{{17, 17}, {617, 248}}</string>
+												<string key="NSFrame">{{17, 17}, {617, 261}}</string>
 												<reference key="NSSuperview" ref="707310560"/>
 												<reference key="NSNextKeyView" ref="1069300742"/>
 												<int key="NSsFlags">50</int>
@@ -3435,15 +3435,42 @@
 											<object class="DKTextField" id="171647164">
 												<reference key="NSNextResponder" ref="707310560"/>
 												<int key="NSvFlags">268</int>
-												<string key="NSFrame">{{202, 298}, {218, 14}}</string>
+												<string key="NSFrame">{{82, 293}, {487, 13}}</string>
 												<reference key="NSSuperview" ref="707310560"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="DKTextFieldCell" key="NSCell" id="11530319">
 													<int key="NSCellFlags">68288064</int>
 													<int key="NSCellFlags2">272761856</int>
-													<string key="NSContents">This is to inform you...</string>
-													<reference key="NSSupport" ref="26"/>
+													<string key="NSContents">Kappa should only be used for variables annotated in (Continuous) Interval Playback Mode</string>
+													<object class="NSFont" key="NSSupport">
+														<string key="NSName">LucidaGrande</string>
+														<double key="NSSize">1.000000e+01</double>
+														<int key="NSfFlags">16</int>
+													</object>
 													<reference key="NSControlView" ref="171647164"/>
+													<reference key="NSBackgroundColor" ref="638768726"/>
+													<object class="NSColor" key="NSTextColor">
+														<int key="NSColorSpace">3</int>
+														<bytes key="NSWhite">MC43NQA</bytes>
+													</object>
+												</object>
+											</object>
+											<object class="DKTextField" id="558308374">
+												<reference key="NSNextResponder" ref="707310560"/>
+												<int key="NSvFlags">268</int>
+												<string key="NSFrame">{{60, 321}, {530, 14}}</string>
+												<reference key="NSSuperview" ref="707310560"/>
+												<bool key="NSEnabled">YES</bool>
+												<object class="DKTextFieldCell" key="NSCell" id="679890434">
+													<int key="NSCellFlags">68288064</int>
+													<int key="NSCellFlags2">272761856</int>
+													<string key="NSContents">Kappa requires video files to be present. If files are not avaiable, calculaitons will not work.</string>
+													<object class="NSFont" key="NSSupport">
+														<string key="NSName">LucidaGrande-Bold</string>
+														<double key="NSSize">1.100000e+01</double>
+														<int key="NSfFlags">16</int>
+													</object>
+													<reference key="NSControlView" ref="558308374"/>
 													<reference key="NSBackgroundColor" ref="638768726"/>
 													<object class="NSColor" key="NSTextColor">
 														<int key="NSColorSpace">3</int>
@@ -5238,6 +5265,7 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="673338509"/>
+							<reference ref="558308374"/>
 							<reference ref="171647164"/>
 						</object>
 						<reference key="parent" ref="343273192"/>
@@ -5832,6 +5860,20 @@
 						<reference key="object" ref="11530319"/>
 						<reference key="parent" ref="171647164"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">771</int>
+						<reference key="object" ref="558308374"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="679890434"/>
+						</object>
+						<reference key="parent" ref="707310560"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">772</int>
+						<reference key="object" ref="679890434"/>
+						<reference key="parent" ref="558308374"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -6127,6 +6169,8 @@
 					<string>77.IBPluginDependency</string>
 					<string>77.ImportedFromIB2</string>
 					<string>770.IBPluginDependency</string>
+					<string>771.IBPluginDependency</string>
+					<string>772.IBPluginDependency</string>
 					<string>78.IBPluginDependency</string>
 					<string>78.ImportedFromIB2</string>
 					<string>79.IBPluginDependency</string>
@@ -6432,6 +6476,8 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>net.oofn.DarkKit.plugin</string>
+					<string>net.oofn.DarkKit.plugin</string>
+					<string>net.oofn.DarkKit.plugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -6467,7 +6513,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">770</int>
+			<int key="maxID">772</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
