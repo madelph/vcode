@@ -46,7 +46,7 @@
 
 //number of agreements for both occurrences AND nonoccurrence between both coders
 - (int)numberOfAgreementsOfOccurencesAndNonOccurrencesForTrackNamed:(NSString *)trackName withInterval:(int)interval{
-	int agreements = [agreementController agreeingEventCountForTrackNamed:trackName];
+	int agreements = [agreementController agreeingEventCountNoToleranceForTrackNamed:trackName];
 	int primaryOccurences = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController primaryCoderDoc] withInterval:interval];
 	int secondaryOccurences = [self occurenceEventCountForTrackNamed:trackName forCoderDoc:[agreementController secondaryCoderDoc] withInterval:interval];
 	int nonAgreements = [self opportunitiesForInterval:interval]-primaryOccurences-secondaryOccurences+agreements;

@@ -58,6 +58,8 @@
 -(NSArray *)agreeingEventsForTrackNamed:(NSString *)trackName;
 -(int)agreeingEventCountForTrackNamed:(NSString *)trackName;
 -(int)opportunityEventCountForTrackNamed:(NSString *)trackName;
+-(NSArray *)agreeingEventsNoToleranceForTrackNamed:(NSString *)trackName;
+-(int)agreeingEventCountNoToleranceForTrackNamed:(NSString *)trackName;
 -(int)agreeingDurationCountForTrackNamed:(NSString *)trackName;
 -(int)opportunityDurationCountForTrackNamed:(NSString *)trackName;
 -(int)agreeingCommentCountForTrackNamed:(NSString *)trackName;
