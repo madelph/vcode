@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="721"/>
+			<integer value="372"/>
 			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1727,7 +1727,7 @@
 								<object class="NSTabViewItem" id="611577509">
 									<string key="NSIdentifier">1</string>
 									<object class="NSView" key="NSView" id="79037164">
-										<nil key="NSNextResponder"/>
+										<reference key="NSNextResponder" ref="622839001"/>
 										<int key="NSvFlags">274</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -2575,6 +2575,7 @@
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {651, 338}}</string>
+										<reference key="NSSuperview" ref="622839001"/>
 									</object>
 									<string key="NSLabel">Point by Point Agreement</string>
 									<reference key="NSColor" ref="638768726"/>
@@ -2583,7 +2584,7 @@
 								<object class="NSTabViewItem" id="343273192">
 									<string key="NSIdentifier">2</string>
 									<object class="NSView" key="NSView" id="707310560">
-										<reference key="NSNextResponder" ref="622839001"/>
+										<nil key="NSNextResponder"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3510,21 +3511,20 @@ MiBhZ3JlZSB0aGF0IGFuIGV2ZW50IGRpZCBub3QgaGFwcGVuKS4gCg</string>
 											</object>
 										</object>
 										<string key="NSFrame">{{10, 33}, {651, 338}}</string>
-										<reference key="NSSuperview" ref="622839001"/>
 									</object>
 									<string key="NSLabel">Kappa Agreement</string>
 									<reference key="NSColor" ref="638768726"/>
 									<reference key="NSTabView" ref="622839001"/>
 								</object>
 							</object>
-							<reference key="NSSelectedTabViewItem" ref="343273192"/>
+							<reference key="NSSelectedTabViewItem" ref="611577509"/>
 							<reference key="NSFont" ref="376557099"/>
 							<int key="NSTvFlags">0</int>
 							<bool key="NSAllowTruncatedLabels">YES</bool>
 							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSMutableArray" key="NSSubviews">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<reference ref="707310560"/>
+								<reference ref="79037164"/>
 							</object>
 						</object>
 					</object>
