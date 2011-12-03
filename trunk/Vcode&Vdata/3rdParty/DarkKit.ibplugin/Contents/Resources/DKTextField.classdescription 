@@ -1,6 +1,0 @@
-{
-	Actions = { };
-	Outlets = { };
-    ClassName = DKTextField; 
-    SuperClass = NSTextField; 
-}
