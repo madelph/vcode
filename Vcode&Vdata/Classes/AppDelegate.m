@@ -3,6 +3,7 @@
 //  VCode
 //
 //  Created by Joey Hagedorn on 3/27/08.
+//  Updated and modified by Joshua Hailpern & Zhongnan Du on 12/7/2011
 //  Copyright 2008 University of Illinois & Joey Hagedorn. All rights reserved.
 //	This software is licensed under a BSD license. Please refer to the included
 //  license file for more details.
@@ -12,30 +13,17 @@
 
 @implementation AppDelegate
 
-- (void)dealloc
-{	
-    [super dealloc];
-}
-
 
 - (IBAction)btnVData:(id)sender {
-    NSNib *nib = [[NSNib alloc] initWithNibNamed:@"VData" bundle:nil];
+    NSNib *nib = [[NSNib alloc] initWithNibNamed:@"MainMenuData" bundle:nil];
 	NSLog(@"Vdata Launched");
-   
+	
     [nib instantiateNibWithOwner:self topLevelObjects:nil];
     [_secondWindow makeKeyAndOrderFront:nil];
     
     [nib release];
 }
-- (IBAction)btnVCode:(id)sender {
-    NSNib *nib = [[NSNib alloc] initWithNibNamed:@"CodingDocument" bundle:nil];
-	NSLog(@"Vcode Launched");
-  
-    [nib instantiateNibWithOwner:self topLevelObjects:nil];
-    [_secondWindow makeKeyAndOrderFront:nil];
-    
-    [nib release];
-}
+
 
 
 - (BOOL) applicationShouldOpenUntitledFile: (NSApplication *)sender {
