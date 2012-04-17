@@ -27,7 +27,6 @@
 	IBOutlet NSWindow * docWindow;
 	IBOutlet NSTextField * commentField;
 
-    IBOutlet NSPanel *outlinepanel;
 
 	
 	//These are used to hold data while a sheet is open.

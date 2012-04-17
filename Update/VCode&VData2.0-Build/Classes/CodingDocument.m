@@ -14,6 +14,7 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 
 @implementation CodingDocument
 
+
 - (id)init
 {
     self = [super init];
@@ -36,6 +37,8 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 		isShowingAdminWindow = YES;
 		isStacked = NO;
 		isShowingSound = NO;
+        
+        isShowingAdditionalWindow=NO;
     }else{
 		[self release];
 		return nil;
@@ -501,6 +504,15 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 
 - (IBAction)showingTable:(id)sender {
     [additionalWindow setCanHide:YES];
+}
+
+- (IBAction)AlignVideos:(id)sender {
+    if([additionalWindow canHide]) {
+        [additionalWindow setCanHide:NO];
+    }
+    else {
+        [additionalWindow setCanHide:YES];
+    }
 }
 
 -(IBAction) toggleAdminWindow:(id)sender{
