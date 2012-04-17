@@ -86,7 +86,7 @@
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -153,7 +153,7 @@
 											<string key="NSFrameSize">{302, 124}</string>
 											<reference key="NSSuperview" ref="369869709"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="661317230"/>
+											<reference key="NSNextKeyView" ref="945591625"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="249308044">
@@ -402,7 +402,7 @@
 							<string key="NSFrame">{{6, 10}, {304, 142}}</string>
 							<reference key="NSSuperview" ref="671342058"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="945591625"/>
+							<reference key="NSNextKeyView" ref="369869709"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="192197917"/>
@@ -417,7 +417,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="324472201"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -484,7 +484,7 @@
 															<string key="NSFrameSize">{822, 234}</string>
 															<reference key="NSSuperview" ref="987411453"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="739647568"/>
+															<reference key="NSNextKeyView" ref="515458202"/>
 															<string key="NSClassName">TimelineView</string>
 															<string key="NSExtension">NSView</string>
 														</object>
@@ -530,7 +530,7 @@
 											<string key="NSFrame">{{0, 433}, {822, 289}}</string>
 											<reference key="NSSuperview" ref="137385588"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="515458202"/>
+											<reference key="NSNextKeyView" ref="987411453"/>
 											<int key="NSsFlags">133778</int>
 											<reference key="NSVScroller" ref="739647568"/>
 											<reference key="NSHScroller" ref="515458202"/>
@@ -676,7 +676,7 @@
 															<string key="NSFrameSize">{270, 596}</string>
 															<reference key="NSSuperview" ref="106440301"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="297607327"/>
+															<reference key="NSNextKeyView" ref="639507514"/>
 															<string key="NSClassName">TrackListView</string>
 															<string key="NSExtension">NSView</string>
 														</object>
@@ -721,7 +721,7 @@
 											<string key="NSFrame">{{0, 93}, {285, 596}}</string>
 											<reference key="NSSuperview" ref="628732279"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="639507514"/>
+											<reference key="NSNextKeyView" ref="106440301"/>
 											<int key="NSsFlags">133714</int>
 											<reference key="NSVScroller" ref="297607327"/>
 											<reference key="NSHScroller" ref="639507514"/>
@@ -856,7 +856,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="714860182"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -892,7 +892,7 @@
 											<string key="NSFrameSize">{270, 247}</string>
 											<reference key="NSSuperview" ref="88557989"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="328863430"/>
+											<reference key="NSNextKeyView" ref="1044494677"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="746890348">
@@ -1099,7 +1099,7 @@
 							<string key="NSFrame">{{17, 57}, {272, 265}}</string>
 							<reference key="NSSuperview" ref="993638142"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="1044494677"/>
+							<reference key="NSNextKeyView" ref="88557989"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133650</int>
 							<reference key="NSVScroller" ref="1058663555"/>
@@ -1478,7 +1478,7 @@
 											<string key="NSFrameSize">{302, 115}</string>
 											<reference key="NSSuperview" ref="939085268"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="452242091"/>
+											<reference key="NSNextKeyView" ref="971835614"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="181156478">
@@ -1708,7 +1708,7 @@
 							<string key="NSFrame">{{338, 20}, {304, 133}}</string>
 							<reference key="NSSuperview" ref="993638142"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="971835614"/>
+							<reference key="NSNextKeyView" ref="939085268"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="781199493"/>
@@ -2020,7 +2020,7 @@
 					<reference key="NSNextKeyView" ref="1040666602"/>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMinSize">{213, 123}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -2805,17 +2805,15 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="448340778"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 			<object class="NSView" id="635129070">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">256</int>
 				<string key="NSFrameSize">{125, 1}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 			</object>
 			<object class="NSCollectionViewItem" id="244851474"/>
 			<object class="NSView" id="804420938">
@@ -2892,12 +2890,28 @@
 					<int key="connectionID">1047</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">showingTable:</string>
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">additionalWindow</string>
+						<reference key="source" ref="345280092"/>
+						<reference key="destination" ref="227115978"/>
+					</object>
+					<int key="connectionID">1287</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">AlignVideos</string>
 						<reference key="source" ref="345280092"/>
 						<reference key="destination" ref="792625649"/>
 					</object>
-					<int key="connectionID">1285</int>
+					<int key="connectionID">1288</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">AlignVideos:</string>
+						<reference key="source" ref="345280092"/>
+						<reference key="destination" ref="792625649"/>
+					</object>
+					<int key="connectionID">1289</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -5579,7 +5593,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1286</int>
+			<int key="maxID">1289</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5591,8 +5605,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>AlignVideos:</string>
 							<string>exportEventTextFile:</string>
-							<string>showingTable:</string>
 							<string>toggleAdminWindow:</string>
 						</object>
 						<object class="NSArray" key="dict.values">
@@ -5606,18 +5620,18 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>AlignVideos:</string>
 							<string>exportEventTextFile:</string>
-							<string>showingTable:</string>
 							<string>toggleAdminWindow:</string>
 						</object>
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
-								<string key="name">exportEventTextFile:</string>
+								<string key="name">AlignVideos:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">showingTable:</string>
+								<string key="name">exportEventTextFile:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -5872,7 +5886,6 @@
 							<string>indexCustomView</string>
 							<string>indexScrollView</string>
 							<string>indexTable</string>
-							<string>outlinepanel</string>
 							<string>timelineController</string>
 						</object>
 						<object class="NSArray" key="dict.values">
@@ -5884,7 +5897,6 @@
 							<string>TrackListView</string>
 							<string>NSScrollView</string>
 							<string>NSOutlineView</string>
-							<string>NSPanel</string>
 							<string>TimelineController</string>
 						</object>
 					</object>
@@ -5899,7 +5911,6 @@
 							<string>indexCustomView</string>
 							<string>indexScrollView</string>
 							<string>indexTable</string>
-							<string>outlinepanel</string>
 							<string>timelineController</string>
 						</object>
 						<object class="NSArray" key="dict.values">
@@ -5931,10 +5942,6 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">indexTable</string>
 								<string key="candidateClassName">NSOutlineView</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">outlinepanel</string>
-								<string key="candidateClassName">NSPanel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">timelineController</string>

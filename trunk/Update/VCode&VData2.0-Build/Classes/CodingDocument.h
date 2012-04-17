@@ -54,8 +54,12 @@
 	BOOL isInIntervalMode;
 	BOOL intervalContinuous;
 	int skipInterval;
+    
+    BOOL isShowingAdditionalWindow;
+    NSButton *AlignVideos;
 }
 
+- (IBAction)AlignVideos:(id)sender;
 
 
 -(IBAction) toggleAdminWindow:(id)sender;
