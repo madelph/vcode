@@ -14,10 +14,11 @@
 #import "EventTrack.h"
 #import "TimelineController.h"
 #import "TrackListView.h"
+#import "EventFolder.h"
 
 @interface EventfulController : NSObject {
 	IBOutlet id doc; //type CodingDocument
-	IBOutlet NSTableView *indexTable;
+	IBOutlet NSOutlineView *indexTable;
 	IBOutlet TrackListView *indexCustomView;
 	IBOutlet NSScrollView *indexScrollView;
 	IBOutlet TimelineController *timelineController;
@@ -26,6 +27,7 @@
 	IBOutlet NSWindow * docWindow;
 	IBOutlet NSTextField * commentField;
 
+    IBOutlet NSPanel *outlinepanel;
 
 	
 	//These are used to hold data while a sheet is open.
@@ -55,7 +57,15 @@
 
 
 //for the color admin table too
+/*
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView;
 - (id)tableView:(NSTableView *)aTableView objectValueForTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex;
 - (void)tableView:(NSTableView *)aTableView setObjectValue:(id)anObject forTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex;
+ */
+/*
+- (id)outlineView: (NSOutlineView *)aOutlineView child: (int)index ofItem:(id)item;
+- (BOOL)outlineView: (NSOutlineView *)aOutlinView isItemExpandable:(id)item;
+- (id)outlineView: (NSOutlineView *)aOutlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item;
+*/
+
 @end

@@ -14,6 +14,7 @@
 
 @implementation TimelineController
 
+
 - (id)init
 {
     self = [super init];
@@ -62,6 +63,23 @@
 
 #pragma mark Add/Delete/Edit Tracks
 
+- (IBAction)addFolder:(id)sender {
+    EventFolder * newFolder=[[EventFolder alloc] init];
+    int selectedRow=[indexTable selectedRow];
+    if(selectedRow>-1) {
+        [doc addEventFolder:newFolder atIndex:(selectedRow+1)];
+    }
+    else {
+        [doc addEventFolder:newFolder];
+        selectedRow =[ [doc eventTracks] count]-1;
+    }
+    [indexTable reloadData];
+    [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+}
+
+- (IBAction)removeFolder:(id)sender {
+}
+
 - (IBAction) addTrack:(id)sender{
 	EventTrack * newTrack = [[EventTrack alloc] init];
 	
@@ -77,7 +95,7 @@
 	[timelineView addTrack:newTrack];	
 	[indexTable reloadData];
 	[indexTable selectRow:(selectedRow+1) byExtendingSelection:NO];
-	//[indexTable selectRowIndexes:[NSIndexSet indexSetWithIndex:(selectedRow+1)] byExtendingSelection:NO];
+//	[indexTable selectRowIndexes:[NSIndexSet indexSetWithIndex:(selectedRow+1)] byExtendingSelection:NO];
 	[indexCustomView setNeedsDisplay:YES];
 }
 

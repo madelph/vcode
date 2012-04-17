@@ -16,17 +16,22 @@
 #import "TimelineView.h"
 #import "TrackListView.h"
 
+#import "EventFolder.h"
 
 
 @interface TimelineController : NSObject {
 	IBOutlet TimelineView * timelineView;
 	IBOutlet id doc; //CodingDocument
-	IBOutlet NSTableView *indexTable;
+	IBOutlet NSOutlineView *indexTable;
 	IBOutlet TrackListView *indexCustomView;
 	
 	NSArray *defaultColors;
 
+    NSButton *addFolder;
 }
+
+- (IBAction)addFolder:(id)sender;
+- (IBAction)removeFolder:(id)sender;
 
 - (IBAction) addTrack:(id)sender;
 - (IBAction) removeTrack:(id)sender;
