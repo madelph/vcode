@@ -87,7 +87,9 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	NSKeyedArchiver *archiver;
 	data = [NSMutableData data];
 	archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
-		
+    
+    [archiver setOutputFormat:NSPropertyListXMLFormat_v1_0];
+    
 	[archiver encodeObject:moviePath forKey:@"CDmoviepath"];
 	[archiver encodeQTTime:[movie currentTime] forKey:@"CDmovietime"];
 	[archiver encodeObject:dataFile forKey:@"CDdatafile"];
@@ -497,6 +499,10 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	return ((float)([self playheadTime] - movieStartOffset))/((float)([self timelineEnd] - [self timelineStart]));
 }
 
+- (IBAction)showingTable:(id)sender {
+    [additionalWindow setCanHide:YES];
+}
+
 -(IBAction) toggleAdminWindow:(id)sender{
 	[self setIsShowingAdminWindow:(![self isShowingAdminWindow])];
 	return;
@@ -616,6 +622,17 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	}
 }
 
+- (void)addEventFolder:(EventFolder *)evtFld
+{
+    [eventFolders addObject:(EventFolder *) evtFld];
+    [self updateChangeCount:NSChangeDone];
+}
+
+- (void)addEventFolder:(EventFolder *)evtFld atIndex:(int)index
+{
+    [eventFolders insertObject:evtFld atIndex:index];
+    [self updateChangeCount:NSChangeDone];
+}
 
 - (void)addEventTrack:(EventTrack *)evtTrk{
 	[eventTracks addObject:evtTrk];

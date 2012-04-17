@@ -32,6 +32,9 @@
 	IBOutlet NSWindow * docWindow;
 	IBOutlet NSWindow * adminWindow;
 
+    IBOutlet NSWindow *additionalWindow;
+    
+    
 	NSString *moviePath;
 	QTMovie *movie;
 	DataFileLog *dataFile;
@@ -42,6 +45,8 @@
 	
 	NSMutableArray *eventTracks;
 	NSMutableArray *recordingEvents;
+    
+    NSMutableArray *eventFolders;
 	
 	BOOL isStacked;
 	BOOL isShowingSound;
@@ -50,6 +55,7 @@
 	BOOL intervalContinuous;
 	int skipInterval;
 }
+
 
 
 -(IBAction) toggleAdminWindow:(id)sender;
@@ -103,6 +109,9 @@
 - (PlaybackController *) playbackController;
 
 - (NSArray *) metricStyles;
+
+- (void)addEventFolder: (EventFolder *) evtFld;
+- (void)addEventFolder: (EventFolder *) evtFld atIndex:(int) index;
 
 - (void)addEventTrack:(EventTrack *)evtTrk;
 - (void)addEventTrack:(EventTrack *)evtTrk atIndex:(int)index;

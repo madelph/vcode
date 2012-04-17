@@ -18,6 +18,10 @@
 		1D9F58C70D9B7839003A7AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9F58C60D9B7839003A7AE1 /* AppDelegate.m */; };
 		1D9F58DB0D9B7E02003A7AE1 /* Limitations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D9F58DA0D9B7E02003A7AE1 /* Limitations.txt */; };
 		1D9F58DF0D9B7F44003A7AE1 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D9F58DE0D9B7F44003A7AE1 /* License.txt */; };
+		2D6EFC80153D4208006DB3E8 /* Screen Shot 2012-04-17 at 1.14.52 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC7F153D4208006DB3E8 /* Screen Shot 2012-04-17 at 1.14.52 AM.png */; };
+		2D6EFC82153D439F006DB3E8 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC81153D439E006DB3E8 /* Folder.png */; };
+		2D6EFC84153D43A6006DB3E8 /* Variable.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC83153D43A6006DB3E8 /* Variable.png */; };
+		2D6EFC8E153D5DEA006DB3E8 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC8D153D5DEA006DB3E8 /* Window.xib */; };
 		515B3E6D14BFFF22009DD4F9 /* default-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 515B3E6C14BFFF22009DD4F9 /* default-thumbnail.png */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
@@ -26,6 +30,13 @@
 		8D15AC310486D014006FF6A4 /* CodingDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* CodingDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		B71DA739152F93AA004B747A /* EventFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DA738152F93AA004B747A /* EventFolder.m */; };
+		B7F31903150ED99800841422 /* VCode1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F318FE150ED99800841422 /* VCode1.png */; };
+		B7F31904150ED99800841422 /* VData2.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F318FF150ED99800841422 /* VData2.png */; };
+		B7F31905150ED99800841422 /* VExport.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F31900150ED99800841422 /* VExport.png */; };
+		B7F31906150ED99800841422 /* VReport.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F31901150ED99800841422 /* VReport.png */; };
+		B7F31907150ED99800841422 /* VTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F31902150ED99800841422 /* VTemplate.png */; };
+		B7F3190A150EE09600841422 /* packages.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F31909150EE09500841422 /* packages.m */; };
 		D404E7590CE7095C00416B1D /* VCode&VData.icns in Resources */ = {isa = PBXBuildFile; fileRef = D404E7570CE7095C00416B1D /* VCode&VData.icns */; };
 		D404E75A0CE7095C00416B1D /* VCode&VDataDoc.icns in Resources */ = {isa = PBXBuildFile; fileRef = D404E7580CE7095C00416B1D /* VCode&VDataDoc.icns */; };
 		D41CEDAF0CA21F8B00DC32B4 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41CEDAE0CA21F8B00DC32B4 /* QuickTime.framework */; };
@@ -119,10 +130,23 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2D6EFC7F153D4208006DB3E8 /* Screen Shot 2012-04-17 at 1.14.52 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-04-17 at 1.14.52 AM.png"; sourceTree = "<group>"; };
+		2D6EFC81153D439E006DB3E8 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
+		2D6EFC83153D43A6006DB3E8 /* Variable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Variable.png; sourceTree = "<group>"; };
+		2D6EFC8D153D5DEA006DB3E8 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 		32DBCF750370BD2300C91783 /* VCode_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCode_Prefix.pch; sourceTree = "<group>"; };
 		515B3E6C14BFFF22009DD4F9 /* default-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-thumbnail.png"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* VCode&VData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VCode&VData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71DA737152F93AA004B747A /* EventFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFolder.h; sourceTree = "<group>"; };
+		B71DA738152F93AA004B747A /* EventFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFolder.m; sourceTree = "<group>"; };
+		B7F318FE150ED99800841422 /* VCode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VCode1.png; sourceTree = "<group>"; };
+		B7F318FF150ED99800841422 /* VData2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VData2.png; sourceTree = "<group>"; };
+		B7F31900150ED99800841422 /* VExport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VExport.png; sourceTree = "<group>"; };
+		B7F31901150ED99800841422 /* VReport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VReport.png; sourceTree = "<group>"; };
+		B7F31902150ED99800841422 /* VTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VTemplate.png; sourceTree = "<group>"; };
+		B7F31908150EE09500841422 /* packages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packages.h; sourceTree = "<group>"; };
+		B7F31909150EE09500841422 /* packages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = packages.m; sourceTree = "<group>"; };
 		D404E7570CE7095C00416B1D /* VCode&VData.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "VCode&VData.icns"; sourceTree = "<group>"; };
 		D404E7580CE7095C00416B1D /* VCode&VDataDoc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "VCode&VDataDoc.icns"; sourceTree = "<group>"; };
 		D41CEDAE0CA21F8B00DC32B4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
@@ -242,6 +266,8 @@
 				1D2DD1370D8F83B7009B9BE1 /* AudioExtractor.m */,
 				1D9F58C50D9B7839003A7AE1 /* AppDelegate.h */,
 				1D9F58C60D9B7839003A7AE1 /* AppDelegate.m */,
+				B7F31908150EE09500841422 /* packages.h */,
+				B7F31909150EE09500841422 /* packages.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -287,6 +313,7 @@
 				D4AF43780CA64B8F00BF2628 /* Images */,
 				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
 				2A37F4B4FDCFA73011CA2CEA /* CodingDocument.nib */,
+				2D6EFC8D153D5DEA006DB3E8 /* Window.xib */,
 				FDF323A2147519320028ED4D /* MainMenuData.nib */,
 				1D4C85FC0DDAAA44004E5A57 /* VCodeVDataDocs.pdf */,
 				1D9F58DA0D9B7E02003A7AE1 /* Limitations.txt */,
@@ -337,6 +364,14 @@
 		D4AF43780CA64B8F00BF2628 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2D6EFC83153D43A6006DB3E8 /* Variable.png */,
+				2D6EFC81153D439E006DB3E8 /* Folder.png */,
+				2D6EFC7F153D4208006DB3E8 /* Screen Shot 2012-04-17 at 1.14.52 AM.png */,
+				B7F318FE150ED99800841422 /* VCode1.png */,
+				B7F318FF150ED99800841422 /* VData2.png */,
+				B7F31900150ED99800841422 /* VExport.png */,
+				B7F31901150ED99800841422 /* VReport.png */,
+				B7F31902150ED99800841422 /* VTemplate.png */,
 				D4455AEB0CB87A1200A6C2B3 /* Popup triangle.tiff */,
 				D4AF43700CA649B600BF2628 /* Add.tiff */,
 				D4AF43710CA649B600BF2628 /* Remove_Pressed.tiff */,
@@ -395,6 +430,8 @@
 				D4BD17450C9BC8B500C79726 /* Event.m */,
 				D4BD173D0C9BC5C900C79726 /* EventTrack.h */,
 				D4BD173E0C9BC5C900C79726 /* EventTrack.m */,
+				B71DA737152F93AA004B747A /* EventFolder.h */,
+				B71DA738152F93AA004B747A /* EventFolder.m */,
 				FDF32399147517FC0028ED4D /* MiniDoc.h */,
 				FDF3239A147517FC0028ED4D /* MiniDoc.m */,
 				D4A5B16D0CC73E74000C8799 /* DataFileLog.h */,
@@ -499,6 +536,15 @@
 				FDF323A4147519320028ED4D /* MainMenuData.nib in Resources */,
 				FDF1F5D6148FBCE200C00234 /* VData.icns in Resources */,
 				515B3E6D14BFFF22009DD4F9 /* default-thumbnail.png in Resources */,
+				B7F31903150ED99800841422 /* VCode1.png in Resources */,
+				B7F31904150ED99800841422 /* VData2.png in Resources */,
+				B7F31905150ED99800841422 /* VExport.png in Resources */,
+				B7F31906150ED99800841422 /* VReport.png in Resources */,
+				B7F31907150ED99800841422 /* VTemplate.png in Resources */,
+				2D6EFC80153D4208006DB3E8 /* Screen Shot 2012-04-17 at 1.14.52 AM.png in Resources */,
+				2D6EFC82153D439F006DB3E8 /* Folder.png in Resources */,
+				2D6EFC84153D43A6006DB3E8 /* Variable.png in Resources */,
+				2D6EFC8E153D5DEA006DB3E8 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +584,8 @@
 				FDF32397147517E70028ED4D /* AgreementController.m in Sources */,
 				FDF32398147517E70028ED4D /* KappaController.m in Sources */,
 				FDF3239B147517FC0028ED4D /* MiniDoc.m in Sources */,
+				B7F3190A150EE09600841422 /* packages.m in Sources */,
+				B71DA739152F93AA004B747A /* EventFolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
