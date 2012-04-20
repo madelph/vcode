@@ -507,12 +507,8 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 }
 
 - (IBAction)AlignVideos:(id)sender {
-    if([additionalWindow canHide]) {
-        [additionalWindow setCanHide:NO];
-    }
-    else {
-        [additionalWindow setCanHide:YES];
-    }
+    NSWindowController * name=[[NSWindowController alloc] initWithWindowNibName:@"videoselection"];
+    
 }
 
 -(IBAction) toggleAdminWindow:(id)sender{
@@ -675,7 +671,19 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	}
 	return;
 }
-
+/*
+ - (void)addEventFolder:(EventFolder *)evtFld
+ {
+ [eventFolders addObject:(EventFolder *) evtFld];
+ [self updateChangeCount:NSChangeDone];
+ }
+ 
+ - (void)addEventFolder:(EventFolder *)evtFld atIndex:(int)index
+ {
+ [eventFolders insertObject:evtFld atIndex:index];
+ [self updateChangeCount:NSChangeDone];
+ }
+*/
 - (NSArray *) eventTracks{
 	return [[[NSArray alloc] initWithArray:eventTracks] autorelease];
 }
