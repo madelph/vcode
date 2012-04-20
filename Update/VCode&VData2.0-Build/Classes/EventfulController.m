@@ -244,8 +244,23 @@
 
 
 
-#pragma mark Admin Window Table Glue Code
-
+#pragma mark Admin Window Table Glue Code 
+/*
+ - (BOOL)outlineView:(NSOutlineView *)outlineView isGroupItem:(id)item
+ {
+ 
+ {
+ 
+ - (BOOL)outlineView:(NSOutlineView *)outlineView shouldSelectItem:(id)item
+ {
+ 
+ }
+ 
+ - (NSCell *)outlineView:(NSOutlineView *)outlineView dataCellForTableColumn:(NSTableColumn *)tableColumn item:(id)item
+ {
+ 
+ }
+*/
 // just returns the item for the right row
 - (id)     tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{  
 	//log or something to figure out which table column?	

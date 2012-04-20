@@ -85,8 +85,9 @@
 					<string key="NSFrameSize">{458, 285}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
+					<reference key="NSNextKeyView"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -128,7 +129,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{196, 112}, {319, 157}}</string>
 				<int key="NSWTFlags">-193461248</int>
-				<string key="NSWindowTitle">Window</string>
+				<string key="NSWindowTitle">videoselection</string>
 				<string key="NSWindowClass">NSPanel</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
@@ -153,7 +154,7 @@
 											<string key="NSFrameSize">{302, 124}</string>
 											<reference key="NSSuperview" ref="369869709"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="945591625"/>
+											<reference key="NSNextKeyView" ref="661317230"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="249308044">
@@ -166,11 +167,10 @@
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<reference key="NSTableView" ref="54145549"/>
 											</object>
-											<object class="_NSCornerView" key="NSCornerView" id="945591625">
+											<object class="_NSCornerView" key="NSCornerView">
 												<nil key="NSNextResponder"/>
 												<int key="NSvFlags">-2147483392</int>
 												<string key="NSFrame">{{-26, 0}, {16, 17}}</string>
-												<reference key="NSNextKeyView" ref="460696290"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											</object>
 											<object class="NSMutableArray" key="NSTableColumns">
@@ -364,6 +364,7 @@
 									<string key="NSFrame">{{288, 17}, {15, 124}}</string>
 									<reference key="NSSuperview" ref="324472201"/>
 									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<reference key="NSTarget" ref="324472201"/>
 									<string key="NSAction">_doScroller:</string>
@@ -402,7 +403,7 @@
 							<string key="NSFrame">{{6, 10}, {304, 142}}</string>
 							<reference key="NSSuperview" ref="671342058"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="369869709"/>
+							<reference key="NSNextKeyView" ref="460696290"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="192197917"/>
@@ -417,7 +418,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="324472201"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -454,7 +455,7 @@
 												<object class="NSCustomView" id="772724816">
 													<reference key="NSNextResponder" ref="519870106"/>
 													<int key="NSvFlags">274</int>
-													<string key="NSFrameSize">{825, 424}</string>
+													<string key="NSFrameSize">{824, 424}</string>
 													<reference key="NSSuperview" ref="519870106"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="1043273375"/>
@@ -462,7 +463,7 @@
 													<string key="NSExtension">NSView</string>
 												</object>
 											</object>
-											<string key="NSFrameSize">{822, 424}</string>
+											<string key="NSFrameSize">{821.50892857142856, 424}</string>
 											<reference key="NSSuperview" ref="137385588"/>
 											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="772724816"/>
@@ -484,7 +485,7 @@
 															<string key="NSFrameSize">{822, 234}</string>
 															<reference key="NSSuperview" ref="987411453"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="515458202"/>
+															<reference key="NSNextKeyView" ref="739647568"/>
 															<string key="NSClassName">TimelineView</string>
 															<string key="NSExtension">NSView</string>
 														</object>
@@ -527,17 +528,17 @@
 													<double key="NSPercent">0.97382199764251709</double>
 												</object>
 											</object>
-											<string key="NSFrame">{{0, 433}, {822, 289}}</string>
+											<string key="NSFrame">{{0, 433}, {821.50892857142856, 289}}</string>
 											<reference key="NSSuperview" ref="137385588"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="987411453"/>
+											<reference key="NSNextKeyView" ref="515458202"/>
 											<int key="NSsFlags">133778</int>
 											<reference key="NSVScroller" ref="739647568"/>
 											<reference key="NSHScroller" ref="515458202"/>
 											<reference key="NSContentView" ref="987411453"/>
 										</object>
 									</object>
-									<string key="NSFrameSize">{822, 722}</string>
+									<string key="NSFrameSize">{821.50892857142856, 722}</string>
 									<reference key="NSSuperview" ref="714860182"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="519870106"/>
@@ -676,12 +677,12 @@
 															<string key="NSFrameSize">{270, 596}</string>
 															<reference key="NSSuperview" ref="106440301"/>
 															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="639507514"/>
+															<reference key="NSNextKeyView" ref="297607327"/>
 															<string key="NSClassName">TrackListView</string>
 															<string key="NSExtension">NSView</string>
 														</object>
 													</object>
-													<string key="NSFrame">{{1, 1}, {283, 594}}</string>
+													<string key="NSFrame">{{1.4910714285714448, 1}, {283, 594}}</string>
 													<reference key="NSSuperview" ref="308040880"/>
 													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="607202296"/>
@@ -721,7 +722,7 @@
 											<string key="NSFrame">{{0, 93}, {285, 596}}</string>
 											<reference key="NSSuperview" ref="628732279"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="106440301"/>
+											<reference key="NSNextKeyView" ref="639507514"/>
 											<int key="NSsFlags">133714</int>
 											<reference key="NSVScroller" ref="297607327"/>
 											<reference key="NSHScroller" ref="639507514"/>
@@ -822,6 +823,7 @@
 											<string key="NSFrame">{{46, 20}, {44, 14}}</string>
 											<reference key="NSSuperview" ref="628732279"/>
 											<reference key="NSWindow"/>
+											<reference key="NSNextKeyView"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="335969489">
 												<int key="NSCellFlags">67239424</int>
@@ -837,7 +839,7 @@
 											</object>
 										</object>
 									</object>
-									<string key="NSFrame">{{831, 0}, {319, 722}}</string>
+									<string key="NSFrame">{{830.50892857142856, 0}, {319.49107142857144, 722}}</string>
 									<reference key="NSSuperview" ref="714860182"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="856713947"/>
@@ -856,7 +858,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="714860182"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -892,7 +894,7 @@
 											<string key="NSFrameSize">{270, 247}</string>
 											<reference key="NSSuperview" ref="88557989"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="1044494677"/>
+											<reference key="NSNextKeyView" ref="328863430"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="746890348">
@@ -905,11 +907,10 @@
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<reference key="NSTableView" ref="124194940"/>
 											</object>
-											<object class="_NSCornerView" key="NSCornerView" id="280646217">
+											<object class="_NSCornerView" key="NSCornerView">
 												<nil key="NSNextResponder"/>
 												<int key="NSvFlags">-2147483392</int>
 												<string key="NSFrame">{{-26, 0}, {16, 17}}</string>
-												<reference key="NSNextKeyView" ref="919245586"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											</object>
 											<object class="NSMutableArray" key="NSTableColumns">
@@ -1072,7 +1073,7 @@
 									<string key="NSFrame">{{-100, -100}, {128, 15}}</string>
 									<reference key="NSSuperview" ref="819711334"/>
 									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="280646217"/>
+									<reference key="NSNextKeyView" ref="919245586"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="819711334"/>
@@ -1099,7 +1100,7 @@
 							<string key="NSFrame">{{17, 57}, {272, 265}}</string>
 							<reference key="NSSuperview" ref="993638142"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="88557989"/>
+							<reference key="NSNextKeyView" ref="1044494677"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133650</int>
 							<reference key="NSVScroller" ref="1058663555"/>
@@ -1478,7 +1479,7 @@
 											<string key="NSFrameSize">{302, 115}</string>
 											<reference key="NSSuperview" ref="939085268"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="971835614"/>
+											<reference key="NSNextKeyView" ref="452242091"/>
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="181156478">
@@ -1491,11 +1492,10 @@
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<reference key="NSTableView" ref="290125487"/>
 											</object>
-											<object class="_NSCornerView" key="NSCornerView" id="971835614">
+											<object class="_NSCornerView" key="NSCornerView">
 												<nil key="NSNextResponder"/>
 												<int key="NSvFlags">-2147483392</int>
 												<string key="NSFrame">{{-26, 0}, {16, 17}}</string>
-												<reference key="NSNextKeyView" ref="106022894"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											</object>
 											<object class="NSMutableArray" key="NSTableColumns">
@@ -1670,6 +1670,7 @@
 									<string key="NSFrame">{{288, 17}, {15, 115}}</string>
 									<reference key="NSSuperview" ref="305205755"/>
 									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<reference key="NSTarget" ref="305205755"/>
 									<string key="NSAction">_doScroller:</string>
@@ -1708,7 +1709,7 @@
 							<string key="NSFrame">{{338, 20}, {304, 133}}</string>
 							<reference key="NSSuperview" ref="993638142"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="939085268"/>
+							<reference key="NSNextKeyView" ref="106022894"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="781199493"/>
@@ -2020,7 +2021,7 @@
 					<reference key="NSNextKeyView" ref="1040666602"/>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMinSize">{213, 123}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -2782,6 +2783,7 @@
 							<string key="NSFrame">{{351, 7}, {80, 28}}</string>
 							<reference key="NSSuperview" ref="662429625"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<int key="NSTag">1</int>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="566965370">
@@ -2805,7 +2807,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="448340778"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMinSize">{213, 129}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
