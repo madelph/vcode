@@ -245,24 +245,33 @@
 
 
 #pragma mark Admin Window Table Glue Code 
-/*
- - (BOOL)outlineView:(NSOutlineView *)outlineView isGroupItem:(id)item
- {
- 
- {
- 
- - (BOOL)outlineView:(NSOutlineView *)outlineView shouldSelectItem:(id)item
- {
+
+ - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
+     return [[item Childrens] count];
  
  }
- 
- - (NSCell *)outlineView:(NSOutlineView *)outlineView dataCellForTableColumn:(NSTableColumn *)tableColumn item:(id)item
- {
- 
+ - (BOOL)outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item {
+     if([item isKindOfClass:[NSMutableArray class]]) {
+         return NO;
+     }
+     else {
+         return YES;
+     }
  }
-*/
+ 
+ - (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item {
+     return [[item array] objectAtIndex: index];
+ }
+ 
+ 
+ - (id)outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
+     if([[tableColumn identifier] compare: @"name"]==NSOrderedSame) {
+         return [item eventTrackGroups];
+     }
+ }
+
 // just returns the item for the right row
-- (id)     tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{  
+/*- (id)     tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{  
 	//log or something to figure out which table column?	
 	if([[aTableColumn identifier] compare: @"name"]==NSOrderedSame){
 		return [[[doc eventTracks]objectAtIndex:rowIndex] name];  
@@ -344,7 +353,7 @@
 	return YES;
 }
 
-
+*/
 
 
 @end

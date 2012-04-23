@@ -16,7 +16,7 @@
 #import "TimelineView.h"
 #import "TrackListView.h"
 
-#import "EventFolder.h"
+#import "EventTrackGroups.h"
 
 
 @interface TimelineController : NSObject {

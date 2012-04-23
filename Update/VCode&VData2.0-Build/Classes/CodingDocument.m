@@ -22,6 +22,8 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
     
         // Add your subclass-specific initialization here.
         // If an error occurs here, send a [self release] message and return nil.
+        eventTrackGroups = [[[NSMutableArray alloc] initWithCapacity:5] retain];
+        
 		eventTracks = [[[NSMutableArray alloc] initWithCapacity:5] retain];
 		movieStartOffset = 0;
 		recordingEvents = [[[NSMutableArray alloc] initWithCapacity:5] retain];
@@ -49,6 +51,7 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 - (void)dealloc{
 	[recordingEvents release];
 	[eventTracks release];
+    [eventTrackGroups release];
 	[super dealloc];
 }
 
@@ -630,16 +633,20 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	}
 }
 
-- (void)addEventFolder:(EventFolder *)evtFld
+- (void)addEventTrackGroups: (EventTrackGroups *) evtFld
 {
-    [eventFolders addObject:(EventFolder *) evtFld];
+    [eventTrackGroups addObject: evtFld];
     [self updateChangeCount:NSChangeDone];
 }
 
-- (void)addEventFolder:(EventFolder *)evtFld atIndex:(int)index
+- (void)addEventTrackGroups:(EventTrackGroups *)evtFld atIndex:(int) index
 {
-    [eventFolders insertObject:evtFld atIndex:index];
+    [eventTrackGroups insertObject: evtFld atIndex: index];
     [self updateChangeCount:NSChangeDone];
+}
+
+- (NSArray *)eventTrackGroups {
+    return eventTrackGroups;
 }
 
 - (void)addEventTrack:(EventTrack *)evtTrk{
@@ -685,7 +692,15 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
  }
 */
 - (NSArray *) eventTracks{
-	return [[[NSArray alloc] initWithArray:eventTracks] autorelease];
+    NSMutableArray * allTracks=[NSMutableArray array];
+    for (NSInteger a=0; a<[eventTrackGroups count]; a++) {
+        
+        for (NSInteger b=0; b<[[[eventTrackGroups objectAtIndex:a] Childrens] count]; b++) {
+            [allTracks addObject: [[eventTrackGroups Childrens] objectAtIndex:b]];
+
+        }
+    }
+	return allTracks;
 }
 
 - (void)addRecordingEvent:(Event *)newEvent{

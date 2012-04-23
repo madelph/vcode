@@ -19,7 +19,7 @@
 #import "TimelineController.h"
 #import "PlaybackController.h"
 #import "MultiMovieView.h"
-
+#import "EventTrackGroups.h"
 
 @interface CodingDocument : NSDocument
 {	
@@ -46,7 +46,7 @@
 	NSMutableArray *eventTracks;
 	NSMutableArray *recordingEvents;
     
-    NSMutableArray *eventFolders;
+    NSMutableArray *eventTrackGroups;
 	
 	BOOL isStacked;
 	BOOL isShowingSound;
@@ -114,8 +114,10 @@
 
 - (NSArray *) metricStyles;
 
-- (void)addEventFolder: (EventFolder *) evtFld;
-- (void)addEventFolder: (EventFolder *) evtFld atIndex:(int) index;
+- (void) addEventTrackGroups: (EventTrackGroups *) evtFld;
+- (void) addEventTrackGroups: (EventTrackGroups *)evtFld atIndex:(int) index;
+
+- (NSArray *)eventTrackGroups;
 
 - (void)addEventTrack:(EventTrack *)evtTrk;
 - (void)addEventTrack:(EventTrack *)evtTrk atIndex:(int)index;

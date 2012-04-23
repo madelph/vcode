@@ -19,6 +19,8 @@
 	//order in list???
 	NSString *trackName;
 	NSString *triggerKey;
+    
+    BOOL isLeaf;
 }
 
 + (EventTrack *) eventTrackWithEventTrack:(EventTrack *)aTrack;
@@ -40,5 +42,7 @@
 - (void) setName: (NSString *)newName;
 - (void) setKey: (NSString *)key;
 - (NSUndoManager *) undoManager;
+
+- (id)initLeaf;
 
 @end
