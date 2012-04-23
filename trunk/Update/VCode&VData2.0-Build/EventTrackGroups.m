@@ -6,27 +6,28 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "EventFolder.h"
+#import "EventTrackGroups.h"
 
-@implementation EventFolder
-
+@implementation EventTrackGroups
+@synthesize folderName;
+@synthesize Childrens;
 
 - (id) init {
-    folderGroupName =[[NSString alloc] init];
+    folderName =[[NSString alloc] init];
     Childrens=[[NSMutableArray alloc] init];
     return self;
 }
 
 - (void) dealloc 
 {
-    [folderGroupName release];
+    [folderName release];
     [Childrens release];
     return [super dealloc];
 }
 
--(void) addChildren: (EventTrack *) tracks
+-(void) addChildren: (EventTrack *) eventtracks
 {
-    [Childrens addObject:tracks];
+    [Childrens addObject:eventtracks];
 }
 
 -(NSInteger)numberOfChildren

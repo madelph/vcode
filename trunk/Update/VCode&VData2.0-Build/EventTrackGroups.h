@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 #import "EventTrack.h"
-@interface EventFolder : NSObject {
+@interface EventTrackGroups : NSObject {
 //    EventFolder * parent;
-    NSString * folderGroupName;
+    NSString * folderName;
     NSMutableArray * Childrens;
 }
-
+@property (retain) NSString *folderName;
+@property (retain) NSMutableArray *Childrens;
 
 -(void) addChildren: (EventTrack *) tracks;
 -(NSInteger)numberOfChildren;

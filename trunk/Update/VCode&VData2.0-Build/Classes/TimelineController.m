@@ -64,14 +64,14 @@
 #pragma mark Add/Delete/Edit Tracks
 
 - (IBAction)addFolder:(id)sender {
-    EventFolder * newFolder=[[EventFolder alloc] init];
+    EventTrackGroups * folder=[[EventTrackGroups alloc] init];
     int selectedRow=[indexTable selectedRow];
     if(selectedRow>-1) {
-        [doc addEventFolder:newFolder atIndex:(selectedRow+1)];
+        [doc addEventTrackGroups:folder atIndex:(selectedRow+1)];
     }
     else {
-        [doc addEventFolder:newFolder];
-        selectedRow =[ [doc eventTracks] count]-1;
+        [doc addEventTrackGroups:folder];
+        selectedRow =[ [doc eventTrackGroups] count]-1;
     }
     [indexTable reloadData];
     [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];

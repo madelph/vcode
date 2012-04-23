@@ -22,6 +22,7 @@
 		2D6EFC82153D439F006DB3E8 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC81153D439E006DB3E8 /* Folder.png */; };
 		2D6EFC84153D43A6006DB3E8 /* Variable.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC83153D43A6006DB3E8 /* Variable.png */; };
 		2D6EFC8E153D5DEA006DB3E8 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6EFC8D153D5DEA006DB3E8 /* Window.xib */; };
+		2DBDA9A8154268F100E52136 /* NSOutlineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDA9A7154268F000E52136 /* NSOutlineDataSource.m */; };
 		515B3E6D14BFFF22009DD4F9 /* default-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 515B3E6C14BFFF22009DD4F9 /* default-thumbnail.png */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
@@ -30,7 +31,7 @@
 		8D15AC310486D014006FF6A4 /* CodingDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* CodingDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		B71DA739152F93AA004B747A /* EventFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DA738152F93AA004B747A /* EventFolder.m */; };
+		B71DA739152F93AA004B747A /* EventTrackGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DA738152F93AA004B747A /* EventTrackGroups.m */; };
 		B7F31903150ED99800841422 /* VCode1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F318FE150ED99800841422 /* VCode1.png */; };
 		B7F31904150ED99800841422 /* VData2.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F318FF150ED99800841422 /* VData2.png */; };
 		B7F31905150ED99800841422 /* VExport.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F31900150ED99800841422 /* VExport.png */; };
@@ -134,12 +135,14 @@
 		2D6EFC81153D439E006DB3E8 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
 		2D6EFC83153D43A6006DB3E8 /* Variable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Variable.png; sourceTree = "<group>"; };
 		2D6EFC8D153D5DEA006DB3E8 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		2DBDA9A6154268F000E52136 /* NSOutlineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOutlineDataSource.h; sourceTree = "<group>"; };
+		2DBDA9A7154268F000E52136 /* NSOutlineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOutlineDataSource.m; sourceTree = "<group>"; };
 		32DBCF750370BD2300C91783 /* VCode_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCode_Prefix.pch; sourceTree = "<group>"; };
 		515B3E6C14BFFF22009DD4F9 /* default-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-thumbnail.png"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* VCode&VData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VCode&VData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B71DA737152F93AA004B747A /* EventFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFolder.h; sourceTree = "<group>"; };
-		B71DA738152F93AA004B747A /* EventFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFolder.m; sourceTree = "<group>"; };
+		B71DA737152F93AA004B747A /* EventTrackGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTrackGroups.h; sourceTree = "<group>"; };
+		B71DA738152F93AA004B747A /* EventTrackGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTrackGroups.m; sourceTree = "<group>"; };
 		B7F318FE150ED99800841422 /* VCode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VCode1.png; sourceTree = "<group>"; };
 		B7F318FF150ED99800841422 /* VData2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VData2.png; sourceTree = "<group>"; };
 		B7F31900150ED99800841422 /* VExport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VExport.png; sourceTree = "<group>"; };
@@ -430,8 +433,8 @@
 				D4BD17450C9BC8B500C79726 /* Event.m */,
 				D4BD173D0C9BC5C900C79726 /* EventTrack.h */,
 				D4BD173E0C9BC5C900C79726 /* EventTrack.m */,
-				B71DA737152F93AA004B747A /* EventFolder.h */,
-				B71DA738152F93AA004B747A /* EventFolder.m */,
+				B71DA737152F93AA004B747A /* EventTrackGroups.h */,
+				B71DA738152F93AA004B747A /* EventTrackGroups.m */,
 				FDF32399147517FC0028ED4D /* MiniDoc.h */,
 				FDF3239A147517FC0028ED4D /* MiniDoc.m */,
 				D4A5B16D0CC73E74000C8799 /* DataFileLog.h */,
@@ -450,6 +453,8 @@
 				D4BD18AE0C9D305900C79726 /* EventfulController.h */,
 				D4BD18AF0C9D305900C79726 /* EventfulController.m */,
 				D4AF43FF0CA79F3900BF2628 /* PlaybackController.h */,
+				2DBDA9A6154268F000E52136 /* NSOutlineDataSource.h */,
+				2DBDA9A7154268F000E52136 /* NSOutlineDataSource.m */,
 				D4AF44000CA79F3900BF2628 /* PlaybackController.m */,
 				D43A681A0CAF773B003B3255 /* TimelineController.h */,
 				D43A681B0CAF773B003B3255 /* TimelineController.m */,
@@ -585,7 +590,8 @@
 				FDF32398147517E70028ED4D /* KappaController.m in Sources */,
 				FDF3239B147517FC0028ED4D /* MiniDoc.m in Sources */,
 				B7F3190A150EE09600841422 /* packages.m in Sources */,
-				B71DA739152F93AA004B747A /* EventFolder.m in Sources */,
+				B71DA739152F93AA004B747A /* EventTrackGroups.m in Sources */,
+				2DBDA9A8154268F100E52136 /* NSOutlineDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
