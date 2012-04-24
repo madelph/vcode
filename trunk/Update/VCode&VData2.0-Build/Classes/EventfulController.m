@@ -247,29 +247,56 @@
 #pragma mark Admin Window Table Glue Code 
 
  - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
-     return [[item Childrens] count];
+     NSArray *children =item==nil ? [doc eventTrackGroups] : [item children];
+     return [children count];
  
  }
  - (BOOL)outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item {
-     if([item isKindOfClass:[NSMutableArray class]]) {
-         return NO;
+     if([item isKindOfClass:[EventTrackGroups class]]) {
+         return YES;
      }
      else {
-         return YES;
+         return NO;
      }
  }
  
  - (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item {
-     return [[item array] objectAtIndex: index];
+     NSArray *children =item==nil ? [doc eventTrackGroups] : [item children];
+     return [children objectAtIndex:index];
  }
  
  
  - (id)outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
-     if([[tableColumn identifier] compare: @"name"]==NSOrderedSame) {
-         return [item eventTrackGroups];
+     id result=nil;
+     if([item isKindOfClass:[EventTrackGroups class]]) {
+         if(tableColumn==nil || [[tableColumn identifier] isEqualToString:@"name"]) {
+             result=[item folderName];
+         }
      }
+     else if ([item isKindOfClass:[EventTrack class]]) {
+         if (tableColumn == nil || [[tableColumn identifier] isEqualToString:@"name"]) {
+             result=[(EventTrack *)item name];
+         }
+         else if(tableColumn ==nil || [[tableColumn identifier] isEqualToString:@"key"]) {
+             result=[(EventTrack *)item key];
+         }
+         else if(tableColumn ==nil || [[tableColumn identifier] isEqualToString:@"color"]) {
+             result=[item trackColor];
+         }
+         else if(tableColumn ==nil || [[tableColumn identifier] isEqualToString:@"range"]) {
+             if ([item instantaneousMode]) {
+                 return [NSNumber numberWithInt:NSOffState];
+             }
+             else return [NSNumber numberWithInt:NSOnState];
+         }
+     }
+     return result;
  }
 
+
+- (BOOL)outlineView:(NSOutlineView *)outlineView isGroupItem:(id)item {
+    return [item isKindOfClass:[EventTrackGroups class]];
+}
 // just returns the item for the right row
 /*- (id)     tableView:(NSTableView *) aTableView objectValueForTableColumn:(NSTableColumn *) aTableColumn row:(int) rowIndex{  
 	//log or something to figure out which table column?	

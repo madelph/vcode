@@ -9,36 +9,42 @@
 #import "EventTrackGroups.h"
 
 @implementation EventTrackGroups
-@synthesize folderName;
-@synthesize Childrens;
+
 
 - (id) init {
-    folderName =[[NSString alloc] init];
-    Childrens=[[NSMutableArray alloc] init];
+    _folderName =[[NSString alloc] initWithName:@"Untitled Folder"];
+    _Childrens=[[NSMutableArray alloc] init];
     return self;
 }
 
 - (void) dealloc 
 {
-    [folderName release];
-    [Childrens release];
+    [_folderName release];
+    [_Childrens release];
     return [super dealloc];
 }
 
 -(void) addChildren: (EventTrack *) eventtracks
 {
-    [Childrens addObject:eventtracks];
+    [_Childrens addObject:eventtracks];
 }
 
 -(NSInteger)numberOfChildren
 {
-    return [Childrens count];
+    return [_Childrens count];
 }
 
 -(EventTrack *) childAtIndex: (NSUInteger) n
 {
-    return [Childrens objectAtIndex:n];
+    return [_Childrens objectAtIndex:n];
 }
 
+- (NSString *) folderName {
+    return _folderName;
+}
+
+- (NSMutableArray *) Childrens {
+    return _Childrens;
+}
 
 @end

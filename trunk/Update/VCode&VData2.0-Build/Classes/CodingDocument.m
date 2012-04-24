@@ -694,11 +694,7 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 - (NSArray *) eventTracks{
     NSMutableArray * allTracks=[NSMutableArray array];
     for (NSInteger a=0; a<[eventTrackGroups count]; a++) {
-        
-        for (NSInteger b=0; b<[[[eventTrackGroups objectAtIndex:a] Childrens] count]; b++) {
-            [allTracks addObject: [[eventTrackGroups Childrens] objectAtIndex:b]];
-
-        }
+        [allTracks addObjectsFromArray: [[eventTrackGroups objectAtIndex:a] Childrens]];
     }
 	return allTracks;
 }
