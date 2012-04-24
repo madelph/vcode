@@ -16,6 +16,7 @@
 
 @implementation AppDelegate
 
+
 @synthesize windows = _windows;
 @synthesize tableview;
 @synthesize packagesData;
@@ -79,6 +80,12 @@
 - (IBAction)openHelpPDF:(id)sender{
 	[[NSWorkspace sharedWorkspace] openFile:[[NSBundle mainBundle] pathForResource:@"VCodeVDataDocs" ofType:@"pdf"]
 							withApplication:@"Preview"];	
+}
+
+- (IBAction)VGuide:(id)sender {
+     NSNib *nib = [[NSNib alloc] initWithNibNamed:@"webView" bundle:nil];
+    [nib instantiateNibWithOwner:self topLevelObjects:nil];
+    [nib release];
 }
 
 

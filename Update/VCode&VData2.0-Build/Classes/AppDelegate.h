@@ -27,6 +27,7 @@
     
     IBOutlet NSTextFieldCell * text;
 
+    NSButton *VGuide;
 }
 
 @property (assign) IBOutlet NSWindow *windows;
@@ -38,6 +39,8 @@
 
 - (IBAction)btnVData:(id)sender;
 -(IBAction)openHelpPDF:(id)sender;
+- (IBAction)VGuide:(id)sender;
+
 
 - (IBAction)open:(id)sender;
 - (IBAction)cancel:(id)sender;

@@ -247,7 +247,7 @@
 #pragma mark Admin Window Table Glue Code 
 
  - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
-     NSArray *children =item==nil ? [doc eventTrackGroups] : [item children];
+     NSArray *children =item==nil ? [doc eventTrackGroups] : [item Childrens];
      return [children count];
  
  }
@@ -261,8 +261,14 @@
  }
  
  - (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item {
-     NSArray *children =item==nil ? [doc eventTrackGroups] : [item children];
+     NSArray *children =item==nil ? [doc eventTrackGroups] : [item Childrens];
      return [children objectAtIndex:index];
+
+ /*    if ([item isKindOfClass:[EventTrackGroups class]]) {
+         return [[(EventTrackGroups *)item Childrens] objectAtIndex:index];
+     }
+     else return nil;
+  */
  }
  
  
