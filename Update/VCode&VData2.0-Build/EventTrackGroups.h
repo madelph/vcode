@@ -11,21 +11,19 @@
 #import "EventTrack.h"
 @interface EventTrackGroups : NSObject {
 //    EventFolder * parent;
-    NSString * folderName;
-    NSMutableArray * Childrens;
+    NSString * _folderName;
+    NSMutableArray * _Childrens;
 }
-@property (retain) NSString *folderName;
-@property (retain) NSMutableArray *Childrens;
 
 -(void) addChildren: (EventTrack *) tracks;
 -(NSInteger)numberOfChildren;
 -(EventTrack *) childAtIndex: (NSUInteger) n;
 
 
-/*
-- (NSString *) name;
 
-- (void) setname: (NSString *) newname;
+- (NSString *) folderName;
 
-*/
+- (NSMutableArray *) Childrens;
+
+
 @end
