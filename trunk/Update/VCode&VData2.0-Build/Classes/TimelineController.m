@@ -63,7 +63,7 @@
 
 #pragma mark Add/Delete/Edit Tracks
 
-- (IBAction)addFolder:(id)sender {
+-(void) doAddFolder {
     EventTrackGroups * folder=[[EventTrackGroups alloc] init];
     int selectedRow=[indexTable selectedRow];
     if(selectedRow>-1) {
@@ -73,8 +73,19 @@
         [doc addEventTrackGroups:folder];
         selectedRow =[ [doc eventTrackGroups] count]-1;
     }
+    EventTrack * newTrack = [[EventTrack alloc] init];
+    [newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
+    [folder addChildren:newTrack];
+    
+    [timelineView addTrack:newTrack];
+    [doc addEventTrack:newTrack];
+    
     [indexTable reloadData];
-    [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+ //   [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+}
+
+- (IBAction)addFolder:(id)sender {
+    [self doAddFolder];
 }
 
 - (IBAction)removeFolder:(id)sender {
@@ -85,9 +96,14 @@
 	
 	int selectedRow = [indexTable selectedRow];
 	if(selectedRow>-1){
+        [self doAddFolder];
 		[doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+        int temp=[[doc eventTrackGroups] count]-1;
+        [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
 	}else{
 		[doc addEventTrack:newTrack];
+        EventTrackGroups* parent = [indexTable parentForItem: [doc objectAtIndex: selectedRow]];
+        [parent addChildren:newTrack];
 		selectedRow = [[doc eventTracks] count]-1;
 	}
 	[newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];

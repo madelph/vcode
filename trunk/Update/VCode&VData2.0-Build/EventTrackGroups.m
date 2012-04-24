@@ -12,7 +12,7 @@
 
 
 - (id) init {
-    _folderName =[[NSString alloc] initWithName:@"Untitled Folder"];
+    _folderName =[[NSString alloc] initWithString:@"Untitled Folder"];
     _Childrens=[[NSMutableArray alloc] init];
     return self;
 }
