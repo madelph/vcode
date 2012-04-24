@@ -114,8 +114,8 @@
 
 - (NSArray *) metricStyles;
 
-- (void) addEventTrackGroups: (EventTrackGroups *) evtFld;
-- (void) addEventTrackGroups: (EventTrackGroups *)evtFld atIndex:(int) index;
+- (void) addEventTrackGroups: (id) evtFld;
+- (void) addEventTrackGroups: (id)evtFld atIndex:(int) index;
 
 - (NSArray *)eventTrackGroups;
 

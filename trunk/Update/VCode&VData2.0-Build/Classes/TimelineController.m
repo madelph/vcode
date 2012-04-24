@@ -76,12 +76,14 @@
     EventTrack * newTrack = [[EventTrack alloc] init];
     [newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
     [folder addChildren:newTrack];
-    
+    [indexTable expandItem:folder];
     [timelineView addTrack:newTrack];
     [doc addEventTrack:newTrack];
     
-    [indexTable reloadData];
- //   [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+    [indexTable reloadItem:nil reloadChildren:YES];
+   // [indexTable reloadData];
+    [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+    [indexCustomView setNeedsDisplay:YES];
 }
 
 - (IBAction)addFolder:(id)sender {
@@ -96,20 +98,31 @@
 	
 	int selectedRow = [indexTable selectedRow];
 	if(selectedRow>-1){
-        [self doAddFolder];
-		[doc addEventTrack:newTrack atIndex:(selectedRow+1)];
-        int temp=[[doc eventTrackGroups] count]-1;
-        [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
+        id item = [indexTable itemAtRow:selectedRow];
+        if ([item isKindOfClass:[EventTrackGroups class]]) {
+            [[[doc eventTrackGroups] objectAtIndex:selectedRow] addChildren:newTrack];
+            [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+            
+        }
+        else if([item isKindOfClass:[EventTrack class]]) {
+            id parent= [indexTable parentForItem:item];
+            NSInteger temp= [indexTable rowForItem:parent];
+            [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+            [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
+
+        }
 	}else{
 		[doc addEventTrack:newTrack];
-        EventTrackGroups* parent = [indexTable parentForItem: [doc objectAtIndex: selectedRow]];
-        [parent addChildren:newTrack];
-		selectedRow = [[doc eventTracks] count]-1;
+        
+        [self doAddFolder];
+        int temp=[[doc eventTrackGroups] count]-1;
+        [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
 	}
 	[newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
 	
 	[timelineView addTrack:newTrack];	
-	[indexTable reloadData];
+ //   [indexTable reloadItem:nil reloadChildren:YES];
+    [indexTable reloadData];
 	[indexTable selectRow:(selectedRow+1) byExtendingSelection:NO];
 //	[indexTable selectRowIndexes:[NSIndexSet indexSetWithIndex:(selectedRow+1)] byExtendingSelection:NO];
 	[indexCustomView setNeedsDisplay:YES];

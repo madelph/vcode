@@ -633,13 +633,13 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	}
 }
 
-- (void)addEventTrackGroups: (EventTrackGroups *) evtFld
+- (void)addEventTrackGroups: (id) evtFld
 {
     [eventTrackGroups addObject: evtFld];
     [self updateChangeCount:NSChangeDone];
 }
 
-- (void)addEventTrackGroups:(EventTrackGroups *)evtFld atIndex:(int) index
+- (void)addEventTrackGroups:(id)evtFld atIndex:(int) index
 {
     [eventTrackGroups insertObject: evtFld atIndex: index];
     [self updateChangeCount:NSChangeDone];
