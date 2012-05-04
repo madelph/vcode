@@ -117,6 +117,10 @@
 - (void) addEventTrackGroups: (id) evtFld;
 - (void) addEventTrackGroups: (id)evtFld atIndex:(int) index;
 
+- (void) removeObject: (id)object;
+- (void) removeObjectAtIndex:(NSInteger) index;
+
+
 - (NSArray *)eventTrackGroups;
 
 - (void)addEventTrack:(EventTrack *)evtTrk;

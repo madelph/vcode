@@ -14,6 +14,8 @@
 #import "MiniDoc.h"
 #import "DataFileLog.h"
 
+#import <WebKit/WebKit.h>
+
 @implementation AppDelegate
 
 
@@ -43,13 +45,17 @@
            [recent_list addObject:pack];
            [pack release];
      }
-    // tableview.delegate=self;
+    // tableview.delegate=self
+    newRequest=[[myWebview alloc] init];
 }
 
 -(void) dealloc
 {
     [self setPackagesData:nil];
 //    [self myRecentFile:nil];
+    if(newRequest!=nil) {
+    [newRequest release];
+    }
     [super dealloc];
 }
 
@@ -59,6 +65,8 @@
 	{
 		[[NSDocumentController sharedDocumentController] openDocument:self];
 	}
+
+
 }
 
 - (IBAction)btnVData:(id)sender {
@@ -83,9 +91,15 @@
 }
 
 - (IBAction)VGuide:(id)sender {
-     NSNib *nib = [[NSNib alloc] initWithNibNamed:@"webView" bundle:nil];
-    [nib instantiateNibWithOwner:self topLevelObjects:nil];
-    [nib release];
+     newRequest=[[myWebview alloc] init];
+ //    NSNib *nib = [[NSNib alloc] initWithNibNamed:@"webview" bundle:nil];
+   // [newRequest goToURLFromExternal:@"www.google.com"];
+    [NSBundle loadNibNamed:@"webview" owner:newRequest];
+    //[nib instantiateNibWithOwner:self topLevelObjects:newRequest];
+ //   [nib awakeFromNib];
+//    [nib release];
+ //   [Vview takeStringURLFrom:@"http://www.google.com"];
+ //   [newRequest release];
 }
 
 

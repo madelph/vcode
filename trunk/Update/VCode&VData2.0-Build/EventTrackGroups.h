@@ -22,7 +22,7 @@
 
 
 - (NSString *) folderName;
-
+- (void) setfolderName: (NSString *) newFolderName;
 - (NSMutableArray *) Childrens;
 
 
