@@ -300,6 +300,20 @@
  }
 
 
+- (void)outlineView:(NSOutlineView *)outlineView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
+    if([item isKindOfClass:[EventTrackGroups class]]) {
+        if([[tableColumn identifier] isEqualToString:@"name"]) {
+            [item setfolderName:object]; 
+        }
+    }
+    else if([item isKindOfClass:[EventTrack class]]) {
+        if([[tableColumn identifier] isEqualToString:@"name"]) {
+            [(EventTrack *)item setName:object];
+        }
+    }
+    [indexCustomView setNeedsDisplay:YES];
+}
+
 - (BOOL)outlineView:(NSOutlineView *)outlineView isGroupItem:(id)item {
     return [item isKindOfClass:[EventTrackGroups class]];
 }

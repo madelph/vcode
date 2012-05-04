@@ -67,9 +67,12 @@
     EventTrackGroups * folder=[[EventTrackGroups alloc] init];
     int selectedRow=[indexTable selectedRow];
     if(selectedRow>-1) {
+        NSLog(@"a");
         [doc addEventTrackGroups:folder atIndex:(selectedRow+1)];
+        selectedRow+=1;
     }
     else {
+        NSLog(@"b");
         [doc addEventTrackGroups:folder];
         selectedRow =[ [doc eventTrackGroups] count]-1;
     }
@@ -78,11 +81,11 @@
     [folder addChildren:newTrack];
     [indexTable expandItem:folder];
     [timelineView addTrack:newTrack];
-    [doc addEventTrack:newTrack];
+ //   [doc addEventTrack:newTrack];
     
     [indexTable reloadItem:nil reloadChildren:YES];
    // [indexTable reloadData];
-    [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
+//    [indexTable selectRow:(selectedRow+1) byExtendingSelection: NO];
     [indexCustomView setNeedsDisplay:YES];
 }
 
@@ -91,37 +94,59 @@
 }
 
 - (IBAction)removeFolder:(id)sender {
+    int selectedRow=[indexTable selectedRow];
+    id item = [indexTable itemAtRow:selectedRow];
+    if ([item isKindOfClass:[EventTrackGroups class]]) {
+        if([[item Childrens] count]!=0) {
+            [[item Childrens] removeAllObjects];
+        }
+        [doc removeObjectAtIndex:selectedRow];
+        [indexTable reloadItem:nil reloadChildren:YES];
+    }
+    else if ([item isKindOfClass:[EventTrack class]]) {
+        id parent= [indexTable parentForItem:item];
+ //       NSInteger temp= [indexTable rowForItem:parent];
+        if([[item Childrens] count]!=0) {
+            [[parent Childrens] removeAllObjects];
+        }
+        [doc removeObject: parent];
+    }
+    [indexTable reloadItem:nil reloadChildren:YES];
+    [indexCustomView setNeedsDisplay:YES];
 }
 
 - (IBAction) addTrack:(id)sender{
-	EventTrack * newTrack = [[EventTrack alloc] init];
+//	EventTrack * newTrack = [[EventTrack alloc] init];
 	
 	int selectedRow = [indexTable selectedRow];
+    printf("selected Row  %d\n", selectedRow);
 	if(selectedRow>-1){
         id item = [indexTable itemAtRow:selectedRow];
         if ([item isKindOfClass:[EventTrackGroups class]]) {
-            [[[doc eventTrackGroups] objectAtIndex:selectedRow] addChildren:newTrack];
-            [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+            printf("groups %d\n", selectedRow);
+            EventTrack * newTrack = [[EventTrack alloc] init];
+            [item addChildren:newTrack];
+//            [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+            [newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
+            [timelineView addTrack:newTrack];
             
         }
         else if([item isKindOfClass:[EventTrack class]]) {
+            printf("event %d\n", selectedRow);
             id parent= [indexTable parentForItem:item];
-            NSInteger temp= [indexTable rowForItem:parent];
-            [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
-            [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
+            EventTrack * newTrack = [[EventTrack alloc] init];
+ //           [doc addEventTrack:newTrack atIndex:(selectedRow+1)];
+            [parent addChildren:newTrack];
+            [newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
+            [timelineView addTrack:newTrack];
+            
 
         }
 	}else{
-		[doc addEventTrack:newTrack];
-        
         [self doAddFolder];
-        int temp=[[doc eventTrackGroups] count]-1;
-        [[[doc eventTrackGroups] objectAtIndex:temp] addChildren:newTrack];
+ //       int temp=[[doc eventTrackGroups] count]-1;
 	}
-	[newTrack setTrackColor:[defaultColors objectAtIndex:(([[doc eventTracks] count] - 1)%[defaultColors count])]];
-	
-	[timelineView addTrack:newTrack];	
- //   [indexTable reloadItem:nil reloadChildren:YES];
+
     [indexTable reloadData];
 	[indexTable selectRow:(selectedRow+1) byExtendingSelection:NO];
 //	[indexTable selectRowIndexes:[NSIndexSet indexSetWithIndex:(selectedRow+1)] byExtendingSelection:NO];
@@ -129,21 +154,16 @@
 }
 
 - (IBAction) removeTrack:(id)sender{
-	if([[doc eventTracks] count]>0){
-		int selectedRow = [indexTable selectedRow];
-		if(selectedRow>(-1)){
-			EventTrack * oldTrack = [[doc eventTracks] objectAtIndex:selectedRow];
-
-			[timelineView removeTrack:oldTrack];
-
-			[doc removeEventTrack:oldTrack];
-			[timelineView removeTrack:oldTrack];
-			
-			[indexTable reloadData];
-			[indexCustomView setNeedsDisplay:YES];
-
-		}
-	}
+    int selectedRow = [indexTable selectedRow];
+    if(selectedRow>-1) {
+        id item = [indexTable itemAtRow:selectedRow];
+        if([item isKindOfClass:[EventTrack class]]) {
+            id parent= [indexTable parentForItem:item];
+            [[parent Childrens] removeObject:item];
+        }
+    }
+    [indexTable reloadItem:nil reloadChildren:YES];
+    [indexCustomView setNeedsDisplay:YES];
 }
 
 
@@ -169,10 +189,6 @@
 	}
 	
 }
-
-
-
-
 
 
 - (void) scrollToNow{

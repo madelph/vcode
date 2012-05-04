@@ -633,6 +633,16 @@ pascal Boolean MyActionFilter (MovieController mc, short action, void* params, l
 	}
 }
 
+
+- (void) removeObject: (id)object{
+    [eventTrackGroups removeObject:object];
+}
+
+- (void) removeObjectAtIndex:(NSInteger) index {
+    [eventTrackGroups removeObjectAtIndex:index];
+}
+
+
 - (void)addEventTrackGroups: (id) evtFld
 {
     [eventTrackGroups addObject: evtFld];

@@ -10,7 +10,7 @@
 
 #import <Cocoa/Cocoa.h>
 //#import <AppKit/AppKit.h>
-
+#import <myWebview.h>
 @interface AppDelegate : NSObject {
 
 	
@@ -21,9 +21,15 @@
     
     IBOutlet NSTableView *tableview;
     
+
+    
+    IBOutlet NSView *myWebview;
+    
     NSMutableArray *packagesData;
     
     NSMutableArray *myRecentFile;
+    
+    myWebview *newRequest;
     
     IBOutlet NSTextFieldCell * text;
 

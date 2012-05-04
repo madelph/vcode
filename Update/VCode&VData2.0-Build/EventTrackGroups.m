@@ -43,6 +43,13 @@
     return _folderName;
 }
 
+- (void) setfolderName:(NSString *) newFolderName {
+    if(![_folderName isEqualToString:newFolderName]) {
+        [_folderName release];
+        _folderName = [newFolderName copy];
+    }
+}
+
 - (NSMutableArray *) Childrens {
     return _Childrens;
 }
