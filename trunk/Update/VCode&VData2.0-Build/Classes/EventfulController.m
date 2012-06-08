@@ -291,9 +291,9 @@
          }
          else if(tableColumn ==nil || [[tableColumn identifier] isEqualToString:@"range"]) {
              if ([item instantaneousMode]) {
-                 return [NSNumber numberWithInt:NSOffState];
+                 result= [NSNumber numberWithInt:NSOffState];
              }
-             else return [NSNumber numberWithInt:NSOnState];
+             else result= [NSNumber numberWithInt:NSOnState];
          }
      }
      return result;

@@ -18,7 +18,7 @@
 
 @implementation AppDelegate
 
-
+@synthesize launchWindow;
 @synthesize windows = _windows;
 @synthesize tableview;
 @synthesize packagesData;
@@ -100,6 +100,16 @@
 //    [nib release];
  //   [Vview takeStringURLFrom:@"http://www.google.com"];
  //   [newRequest release];
+}
+
+- (IBAction)showWindow:(id)sender {
+    NSLog(@"hello, there!!");
+    if ([launchWindow isVisible]) {
+        [launchWindow orderOut:self];
+    }
+    else {
+        [launchWindow makeKeyAndOrderFront:self];
+    }
 }
 
 
