@@ -21,6 +21,7 @@
     
     IBOutlet NSTableView *tableview;
     
+    IBOutlet NSWindow *launchWindow;
 
     
     IBOutlet NSView *myWebview;
@@ -36,6 +37,7 @@
     NSButton *VGuide;
 }
 
+@property (assign) IBOutlet NSWindow *launchWindow;
 @property (assign) IBOutlet NSWindow *windows;
 @property (nonatomic, retain) NSTableView * tableview;
 @property (nonatomic, retain) NSMutableArray * packagesData;
@@ -46,6 +48,7 @@
 - (IBAction)btnVData:(id)sender;
 -(IBAction)openHelpPDF:(id)sender;
 - (IBAction)VGuide:(id)sender;
+- (IBAction)showWindow:(id)sender;
 
 
 - (IBAction)open:(id)sender;
