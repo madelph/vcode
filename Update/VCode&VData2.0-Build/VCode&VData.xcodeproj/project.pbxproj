@@ -24,6 +24,8 @@
 		2DA11CF3154C5A0A00EFFF6F /* myWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA11CF2154C5A0A00EFFF6F /* myWebview.m */; };
 		2DA11CF9154C5C7700EFFF6F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA11CF8154C5C7700EFFF6F /* WebKit.framework */; };
 		2DA11D07154C60B400EFFF6F /* webview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA11D06154C60B400EFFF6F /* webview.xib */; };
+		2DA989C41588D32000E8084E /* myRecentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA989C31588D32000E8084E /* myRecentList.m */; };
+		2DB179D715AA46EB009244E9 /* AppDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB179D615AA46EB009244E9 /* AppDelegateController.m */; };
 		2DBDA9A8154268F100E52136 /* NSOutlineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDA9A7154268F000E52136 /* NSOutlineDataSource.m */; };
 		2DD28FE915465E0A00A6536E /* VGuide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD28FE815465E0A00A6536E /* VGuide.png */; };
 		515B3E6D14BFFF22009DD4F9 /* default-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 515B3E6C14BFFF22009DD4F9 /* default-thumbnail.png */; };
@@ -141,6 +143,10 @@
 		2DA11CF2154C5A0A00EFFF6F /* myWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myWebview.m; sourceTree = "<group>"; };
 		2DA11CF8154C5C7700EFFF6F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2DA11D06154C60B400EFFF6F /* webview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webview.xib; sourceTree = "<group>"; };
+		2DA989C21588D32000E8084E /* myRecentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myRecentList.h; sourceTree = "<group>"; };
+		2DA989C31588D32000E8084E /* myRecentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myRecentList.m; sourceTree = "<group>"; };
+		2DB179D515AA46EB009244E9 /* AppDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateController.h; sourceTree = "<group>"; };
+		2DB179D615AA46EB009244E9 /* AppDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateController.m; sourceTree = "<group>"; };
 		2DBDA9A6154268F000E52136 /* NSOutlineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOutlineDataSource.h; sourceTree = "<group>"; };
 		2DBDA9A7154268F000E52136 /* NSOutlineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOutlineDataSource.m; sourceTree = "<group>"; };
 		2DD28FE815465E0A00A6536E /* VGuide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VGuide.png; sourceTree = "<group>"; };
@@ -275,6 +281,10 @@
 			children = (
 				1D2DD1360D8F83B7009B9BE1 /* AudioExtractor.h */,
 				1D2DD1370D8F83B7009B9BE1 /* AudioExtractor.m */,
+				2DB179D515AA46EB009244E9 /* AppDelegateController.h */,
+				2DB179D615AA46EB009244E9 /* AppDelegateController.m */,
+				2DA989C21588D32000E8084E /* myRecentList.h */,
+				2DA989C31588D32000E8084E /* myRecentList.m */,
 				1D9F58C50D9B7839003A7AE1 /* AppDelegate.h */,
 				1D9F58C60D9B7839003A7AE1 /* AppDelegate.m */,
 				B7F31908150EE09500841422 /* packages.h */,
@@ -606,6 +616,8 @@
 				B71DA739152F93AA004B747A /* EventTrackGroups.m in Sources */,
 				2DBDA9A8154268F100E52136 /* NSOutlineDataSource.m in Sources */,
 				2DA11CF3154C5A0A00EFFF6F /* myWebview.m in Sources */,
+				2DA989C41588D32000E8084E /* myRecentList.m in Sources */,
+				2DB179D715AA46EB009244E9 /* AppDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@
 				<string>cod</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>VCodeDoc</string>
+			<string>VCode1</string>
 			<key>CFBundleTypeName</key>
 			<string>Coding Document</string>
 			<key>CFBundleTypeRole</key>
@@ -30,7 +30,7 @@
 				<string>cod</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>VCodeDoc</string>
+			<string>VData2</string>
 			<key>CFBundleTypeName</key>
 			<string>Coding Document</string>
 			<key>CFBundleTypeRole</key>
@@ -73,7 +73,7 @@
 			<key>UTTypeDescription</key>
 			<string>VCode&amp;VData file extension</string>
 			<key>UTTypeIconFile</key>
-			<string>default-thumbnail.png</string>
+			<string>VCode1</string>
 			<key>UTTypeTagSpecification</key>
 			<dict/>
 		</dict>
