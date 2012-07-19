@@ -15,8 +15,12 @@
 - (id) init {
  //   [super init];
   //  [self goToURLFromExternal:@"www.google.com"];
-    [myWebview setMainFrameURL: @"http://www.apple.com"];
+    //[myWebview setMainFrameURL: @"http://www.apple.com"];
  //   return nil;   
+    self= [super init];
+    if (self) {
+    }
+    return self;
 }
 
 -(void) dealloc
@@ -33,7 +37,7 @@
     NSURLRequest *newRequest = [[NSURLRequest alloc] initWithURL:newURL];
     NSLog(@"%@", newRequest);
     
-    [myWebview setMainFrameURL: @"http://www.apple.com"];
+ //   [myWebview setMainFrameURL: @"http://www.apple.com"];
 }
 
 
