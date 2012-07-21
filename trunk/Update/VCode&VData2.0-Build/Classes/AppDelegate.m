@@ -71,7 +71,6 @@
         [launchWindow orderFront:self];
         //[launchWindow setHidesOnDeactivate:NO];
     }
-
 }
 
 
@@ -230,9 +229,9 @@
 //    BOOL *result=readFromURL:(NSURL *)urls ofType:(NSString *)@"cod" error:(NSError **) outError;
     
 
-	return;
+//	return;
 //    NSURL* urls = [NSURL URLWithString:paths];
- //   [[NSWorkspace sharedWorkspace] openURL:urls];//openFile:(NSString *)paths withApplication:@"Vcode&VData"];
+    [[NSWorkspace sharedWorkspace] openFile:@"file://localhost/Users/renpengyu/Desktop/asfsfd.cod"];//openFile:(NSString *)paths withApplication:@"Vcode&VData"];
   //  }
 }
 
@@ -267,7 +266,7 @@
     }
  */
     if([[tableColumn identifier] compare:@"Recents"]==NSOrderedSame) {
-        NSLog(@"name printed");
+//        NSLog(@"name printed");
 //        NSLog(@"%@",[self prettyNameWithObject:packagesData atIndex:row]);
         return [packagesData objectAtIndex:row];// name];//[self prettyNameWithObject:packagesData atIndex:row];
     }
@@ -306,7 +305,7 @@
     NSTextAttachment *attachment;
     attachment = [[[NSTextAttachment alloc] init] autorelease];
     NSCell *cell = [attachment attachmentCell];
-    NSURL * myurl1=[[NSURL alloc] initWithString:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VCode1.png"];
+ //   NSURL * myurl1=[[NSURL alloc] initWithString:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VCode1.png"];
     //    NSURL * myurl2= [[NSURL alloc] initWithString:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VData2.png"];
     NSImage *icon1 =[[[NSImage alloc] initWithContentsOfFile:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VCode1.png"] autorelease]; // or wherever you are getting your image
     //    NSImage *icon2 = [[NSImage alloc] initByReferencingURL:myurl2];
