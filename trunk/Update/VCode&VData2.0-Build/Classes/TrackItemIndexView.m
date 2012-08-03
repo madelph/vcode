@@ -17,6 +17,8 @@
 - (id)initWithFrame:(NSRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        
         // Initialization code here.
 		keyText = [[NSText alloc] init];
 		[keyText setFrame:NSMakeRect(5.0,4.0,20.0,20.0)];

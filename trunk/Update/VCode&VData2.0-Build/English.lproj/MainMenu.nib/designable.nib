@@ -21735,13 +21735,13 @@ AAH8JgAB/CYAAfwmAAH8JgAB/CYAAfwmAAH8JgABXC0AAQABAAE</bytes>
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents">Create a new VData Session</string>
-								<object class="NSFont" key="NSSupport" id="29">
+								<object class="NSFont" key="NSSupport" id="238527712">
 									<string key="NSName">LucidaGrande-Bold</string>
-									<double key="NSSize">12</double>
+									<double key="NSSize">14</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<reference key="NSControlView" ref="860351521"/>
-								<int key="NSButtonFlags">-2042871553</int>
+								<int key="NSButtonFlags">113000703</int>
 								<int key="NSButtonFlags2">130</int>
 								<object class="NSCustomResource" key="NSNormalImage">
 									<string key="NSClassName">NSImage</string>
@@ -21765,9 +21765,9 @@ AAH8JgAB/CYAAfwmAAH8JgAB/CYAAfwmAAH8JgABXC0AAQABAAE</bytes>
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents">Web View</string>
-								<reference key="NSSupport" ref="29"/>
+								<reference key="NSSupport" ref="238527712"/>
 								<reference key="NSControlView" ref="486949629"/>
-								<int key="NSButtonFlags">-2042871553</int>
+								<int key="NSButtonFlags">113000703</int>
 								<int key="NSButtonFlags2">130</int>
 								<object class="NSCustomResource" key="NSNormalImage">
 									<string key="NSClassName">NSImage</string>
@@ -21791,10 +21791,10 @@ AAH8JgAB/CYAAfwmAAH8JgAB/CYAAfwmAAH8JgABXC0AAQABAAE</bytes>
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents">Create a new Vcode Session</string>
-								<reference key="NSSupport" ref="29"/>
+								<reference key="NSSupport" ref="238527712"/>
 								<reference key="NSControlView" ref="447472140"/>
-								<int key="NSButtonFlags">-2042871553</int>
-								<int key="NSButtonFlags2">130</int>
+								<int key="NSButtonFlags">-927186689</int>
+								<int key="NSButtonFlags2">66</int>
 								<object class="NSCustomResource" key="NSNormalImage">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">VCode1</string>
@@ -46005,7 +46005,6 @@ AAEAAgAAAVMAAwAAAAQAFfwSAAAAAAAIAAgACAAIAAAACAAB/ggAA/wIAAX6CAAH+AgACfYIAAv0CAAN
 							<string key="NSFrame">{{682, 7}, {82, 32}}</string>
 							<reference key="NSSuperview" ref="38711848"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="984172486">
@@ -46066,7 +46065,7 @@ AAEAAgAAAVMAAwAAAAQAFfwSAAAAAAAIAAgACAAIAAAACAAB/ggAA/wIAAX6CAAH+AgACfYIAAv0CAAN
 											<string key="NSFrameSize">{271, 354}</string>
 											<reference key="NSSuperview" ref="166342823"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="951470339"/>
+											<reference key="NSNextKeyView" ref="566776622"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="153339317">
 												<reference key="NSNextResponder" ref="566776622"/>
@@ -46207,7 +46206,7 @@ AAEAAgAAAVMAAwAAAAQAFfwSAAAAAAAIAAgACAAIAAAACAAB/ggAA/wIAAX6CAAH+AgACfYIAAv0CAAN
 							<string key="NSFrame">{{520, 99}, {240, 372}}</string>
 							<reference key="NSSuperview" ref="38711848"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="566776622"/>
+							<reference key="NSNextKeyView" ref="166342823"/>
 							<int key="NSsFlags">133810</int>
 							<reference key="NSVScroller" ref="951470339"/>
 							<reference key="NSHScroller" ref="240759687"/>
