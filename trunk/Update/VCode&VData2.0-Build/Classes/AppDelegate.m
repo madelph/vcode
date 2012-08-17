@@ -86,7 +86,7 @@
         id dc = [NSDocumentController sharedDocumentController];
         NSUInteger temp=[[dc recentDocumentURLs] count];
         //    NSLog(@"%@", temp);
-        NSLog(@"%@", [[dc recentDocumentURLs] objectAtIndex:0]);
+       // NSLog(@"%@", [[dc recentDocumentURLs] objectAtIndex:0]);
         for(int i=0;i<temp;i++) {
             NSString *paths=[[dc recentDocumentURLs] objectAtIndex:i];
             NSString *name=[paths lastPathComponent];
@@ -307,7 +307,7 @@
     NSCell *cell = [attachment attachmentCell];
  //   NSURL * myurl1=[[NSURL alloc] initWithString:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VCode1.png"];
     //    NSURL * myurl2= [[NSURL alloc] initWithString:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VData2.png"];
-    NSImage *icon1 =[[[NSImage alloc] initWithContentsOfFile:@"/Users/renpengyu/Desktop/Vcode/trunk/Update/Vcode&Vdata/VCode1.png"] autorelease]; // or wherever you are getting your image
+    NSImage *icon1 =[[NSImage imageNamed:@"VCode1.png"] autorelease]; // or wherever you are getting your image
     //    NSImage *icon2 = [[NSImage alloc] initByReferencingURL:myurl2];
     NSSize mysize;
     mysize.height = 40;
