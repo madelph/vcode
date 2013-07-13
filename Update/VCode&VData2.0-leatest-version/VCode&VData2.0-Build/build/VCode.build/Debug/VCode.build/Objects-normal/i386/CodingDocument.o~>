@@ -1,0 +1,10 @@
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m: In function '-[CodingDocument exportPanelDidEnd:returnCode:contextInfo:]':
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:603: warning: 'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m: At top level:
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:700: warning: incomplete implementation of class 'CodingDocument'
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:700: warning: method definition for '-btnVData:' not found
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m: In function 'MyActionFilter':
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:717: warning: 'QTMovie' may not respond to '-setPlaysSelectionOnly:'
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:717: warning: (Messages without a matching method signature
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:717: warning: will be assumed to return 'id' and accept
+/Users/vkit/Desktop/Vcode.updateDK/Classes/CodingDocument.m:717: warning: '...' as arguments.)

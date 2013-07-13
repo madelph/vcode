@@ -1,0 +1,4 @@
+/Users/vkit/Desktop/Vcode.updateDK/Classes/AppDelegate.m: In function '-[AppDelegate btnVData:]':
+/Users/vkit/Desktop/Vcode.updateDK/Classes/AppDelegate.m:21: error: '_secondWindow' undeclared (first use in this function)
+/Users/vkit/Desktop/Vcode.updateDK/Classes/AppDelegate.m:21: error: (Each undeclared identifier is reported only once
+/Users/vkit/Desktop/Vcode.updateDK/Classes/AppDelegate.m:21: error: for each function it appears in.)
