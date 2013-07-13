@@ -1,0 +1,1705 @@
+TVCode&VData
+v7
+r0
+t344965728.643471
+cCheck dependencies
+cProcessInfoPlistFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Info.plist" Info.plist
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib"
+cStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib"
+cCopyStringsFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add.tiff" Images/Add.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_Pressed.tiff" Images/Remove_Pressed.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_Pressed.tiff" Images/Add_Pressed.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove.tiff" Images/Remove.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Popup triangle.tiff" "Images/Popup triangle.tiff"
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/VCode&VData.icns VCode&VData.icns
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/VCode&VDataDoc.icns VCode&VDataDoc.icns
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_PressedInverted.tiff" Images/Remove_PressedInverted.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/RemoveInverted.tiff" Images/RemoveInverted.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/AddInverted.tiff" Images/AddInverted.tiff
+cCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_PressedInverted.tiff" Images/Add_PressedInverted.tiff
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/Limitations.txt Limitations.txt
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/License.txt License.txt
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/VCodeVDataDocs.pdf VCodeVDataDocs.pdf
+cStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib"
+cCpResource build/Debug/VCode&VData.app/Contents/Resources/VData.icns VData.icns
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/Sparkle.framework 3rdParty/Sparkle.framework
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/HMBlkAppKit.framework 3rdParty/HMBlkAppKit.framework
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NJRFSObjectSelector.h 3rdParty/NJRFSObjectSelector.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/BDAlias.h 3rdParty/BDAlias.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NSImage-NJRExtensions.h 3rdParty/NSImage-NJRExtensions.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/DocumentController.h Classes/DocumentController.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NSString-NJRExtensions.h 3rdParty/NSString-NJRExtensions.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/DataFileLog.h Classes/DataFileLog.h
+cPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/TimelineVolumeTrackView.h Classes/TimelineVolumeTrackView.h
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/CodingDocument.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/main.o "/Users/vkit/Desktop/VCode&VData 2.0/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventTrack.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/Event.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventfulController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackItemIndexView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackListView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ColorCell.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/PlaybackController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineEventTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NJRFSObjectSelector.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/BDAlias.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSImage-NJRExtensions.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DocumentController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSString-NJRExtensions.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DataFileLog.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineVolumeTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickResult.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickyQTMovieView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MultiMovieView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MetricController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AudioExtractor.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/RealAudioTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AppDelegate.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AgreementController.o "/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/KappaController.o "/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MiniDoc.o "/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData" normal i386
+cTouch "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h
+c0000000048649BCC00000000000002D4
+t1214553036
+s724
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c0000000047BAD4120000000000000400
+t1203426322
+s1024
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
+c000000004864C3220000000000000418
+t1214563106
+s1048
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004864C165000000000000067F
+t1214562661
+s1663
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004DF9CD1C000000000000A5F0
+t1308216604
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004DE5A4840000000000673C60
+t1306895492
+s6765664
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004DE5A33C0000000000785970
+t1306895164
+s7887216
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.h
+c00000000488ABF520000000000000B36
+t1217052498
+s2870
+i<Foundation/Foundation.h>
+i<CoreServices/CoreServices.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m
+c00000000488ABF520000000000002311
+t1217052498
+s8977
+i<assert.h>
+i"BDAlias.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/HMBlkAppKit.framework
+c000000004EB8181200000000000000CC
+t1320687634
+s204
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/HMBlkAppKit.framework/HMBlkAppKit
+c00000000488ABF520000000000026600
+t1217052498
+s157184
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.h
+c000000004EC3731D00000000000002AB
+t1321431837
+s683
+i<Cocoa/Cocoa.h>
+i"BDAlias.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m
+c000000004EC37330000000000000296C
+t1321431856
+s10604
+i"NJRFSObjectSelector.h"
+i"NSImage-NJRExtensions.h"
+i"NSString-NJRExtensions.h"
+i<Carbon/Carbon.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.h
+c00000000488ABF520000000000000119
+t1217052498
+s281
+i<AppKit/AppKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m
+c00000000488ABF520000000000000954
+t1217052498
+s2388
+i"NSImage-NJRExtensions.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.h
+c00000000488ABF5200000000000002BA
+t1217052498
+s698
+i<AppKit/AppKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m
+c00000000488ABF520000000000001B8E
+t1217052498
+s7054
+i"NSString-NJRExtensions.h"
+i<Carbon/Carbon.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/Sparkle.framework
+c000000004EB8181300000000000000CC
+t1320687635
+s204
+
+N/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/Sparkle.framework/Sparkle
+c00000000488ABF520000000000030300
+t1217052498
+s197376
+
+N/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.h
+c00000000488C1CC80000000000000AA9
+t1217141960
+s2729
+i<Cocoa/Cocoa.h>
+i"NJRFSObjectSelector.h"
+i"NSString-NJRExtensions.h"
+i"EventTrack.h"
+i"MiniDoc.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m
+c00000000488C6F480000000000005444
+t1217163080
+s21572
+i"AgreementController.h"
+i"Foundation/Foundation.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.h
+c000000004EDF84AC00000000000001D3
+t1323271340
+s467
+i<Cocoa/Cocoa.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m
+c000000004EDF83D20000000000000372
+t1323271122
+s882
+i"AppDelegate.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.h
+c00000000488ABF520000000000000319
+t1217052498
+s793
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+i<QuickTime/QuickTime.h>
+i<CoreAudio/CoreAudio.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m
+c00000000488ABF520000000000001745
+t1217052498
+s5957
+i"AudioExtractor.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.h
+c00000000488ABF520000000000000233
+t1217052498
+s563
+i<Cocoa/Cocoa.h>
+i"Event.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m
+c00000000488ABF520000000000000280
+t1217052498
+s640
+i"ClickResult.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.h
+c00000000488ABF520000000000000183
+t1217052498
+s387
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m
+c00000000488ABF520000000000000A77
+t1217052498
+s2679
+i"ClickyQTMovieView.h"
+i"PlaybackController.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.h
+c000000004EDF83DC0000000000000D3E
+t1323271132
+s3390
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+i"EventTrack.h"
+i"Event.h"
+i"DataFileLog.h"
+i"EventfulController.h"
+i"DocumentController.h"
+i"TimelineController.h"
+i"PlaybackController.h"
+i"MultiMovieView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m
+c000000004EDF83C50000000000004AA1
+t1323271109
+s19105
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.h
+c00000000488ABF520000000000000123
+t1217052498
+s291
+i<Cocoa/Cocoa.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m
+c00000000488ABF520000000000000324
+t1217052498
+s804
+i"ColorCell.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.h
+c00000000488ABF520000000000000868
+t1217052498
+s2152
+i<Cocoa/Cocoa.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m
+c00000000488ABF520000000000003568
+t1217052498
+s13672
+i"DataFileLog.h"
+i<stdio.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.h
+c00000000488ABF520000000000000320
+t1217052498
+s800
+i<Cocoa/Cocoa.h>
+i"NJRFSObjectSelector.h"
+i"MultiMovieView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m
+c00000000488ABF5200000000000011AA
+t1217052498
+s4522
+i"DocumentController.h"
+i"CodingDocument.h"
+i"MultiMovieView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.h
+c00000000488ABF5200000000000003FC
+t1217052498
+s1020
+i<Cocoa/Cocoa.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m
+c00000000488ABF5200000000000008BD
+t1217052498
+s2237
+i"Event.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.h
+c00000000488ABF52000000000000046D
+t1217052498
+s1133
+i<Cocoa/Cocoa.h>
+i"Event.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m
+c00000000488ABF520000000000001469
+t1217052498
+s5225
+i"EventTrack.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.h
+c00000000488ABF52000000000000071D
+t1217052498
+s1821
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+i"Event.h"
+i"EventTrack.h"
+i"TimelineController.h"
+i"TrackListView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m
+c00000000488ABF5200000000000025CF
+t1217052498
+s9679
+i"EventfulController.h"
+i"ColorCell.h"
+i"TimelineEventTrackView.h"
+i"TimelineView.h"
+i"TrackListView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.h
+c00000000488ABF520000000000000414
+t1217052498
+s1044
+i<Cocoa/Cocoa.h>
+i"TimelineController.h"
+i"CodingDocument.h"
+i"DataFileLog.h"
+i"TimelineView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m
+c00000000488ABF52000000000000142D
+t1217052498
+s5165
+i"MetricController.h"
+i"ColorCell.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.h
+c00000000488ABF52000000000000075A
+t1217052498
+s1882
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+i"ClickyQTMovieView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m
+c000000004EC377C500000000000030B8
+t1321433029
+s12472
+i"MultiMovieView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.h
+c00000000488ABF52000000000000038F
+t1217052498
+s911
+i<Cocoa/Cocoa.h>
+i<QTKit/QTKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m
+c00000000488ABF520000000000001840
+t1217052498
+s6208
+i"PlaybackController.h"
+i"CodingDocument.h"
+i"Event.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.h
+c00000000488ABF520000000000000584
+t1217052498
+s1412
+i<Cocoa/Cocoa.h>
+i"DataFileLog.h"
+i<QTKit/QTKit.h>
+i<AppKit/AppKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m
+c00000000488ABF520000000000001437
+t1217052498
+s5175
+i"RealAudioTrackView.h"
+i"CodingDocument.h"
+i"AudioExtractor.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.h
+c00000000488ABF520000000000000357
+t1217052498
+s855
+i<Cocoa/Cocoa.h>
+i"TimelineView.h"
+i"TrackListView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m
+c00000000488ABF520000000000001F2E
+t1217052498
+s7982
+i"TimelineController.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.h
+c00000000488ABF520000000000000625
+t1217052498
+s1573
+i<Cocoa/Cocoa.h>
+i"Event.h"
+i"EventTrack.h"
+i"ClickResult.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m
+c000000004EC376630000000000003973
+t1321432675
+s14707
+i"TimelineEventTrackView.h"
+i"EventfulController.h"
+i"TimelineView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.h
+c00000000488ABF52000000000000047B
+t1217052498
+s1147
+i<Cocoa/Cocoa.h>
+i"TimelineEventTrackView.h"
+i"EventTrack.h"
+i"TimelineVolumeTrackView.h"
+i"RealAudioTrackView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m
+c000000004EC3768A0000000000001DE8
+t1321432714
+s7656
+i"TimelineView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.h
+c00000000488ABF520000000000000528
+t1217052498
+s1320
+i<Cocoa/Cocoa.h>
+i"DataFileLog.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m
+c00000000488ABF52000000000000189B
+t1217052498
+s6299
+i"TimelineVolumeTrackView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.h
+c000000004EC374FD00000000000002E5
+t1321432317
+s741
+i<Cocoa/Cocoa.h>
+i"EventTrack.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m
+c000000004EC3750B000000000000104F
+t1321432331
+s4175
+i"TrackItemIndexView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.h
+c00000000488ABF5200000000000001F0
+t1217052498
+s496
+i<Cocoa/Cocoa.h>
+i"EventTrack.h"
+i"TrackItemIndexView.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m
+c000000004EC3766D000000000000094E
+t1321432685
+s2382
+i"TrackListView.h"
+i"CodingDocument.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib
+c000000004EDF89900000000000000088
+t1323272592
+s136
+
+N/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/Credits.rtf
+c00000000488ABF52000000000000035C
+t1217052498
+s860
+
+N/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/InfoPlist.strings
+c0000000048DC786000000000000000F2
+t1222408288
+s242
+
+N/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib
+c000000004EDF898E0000000000000088
+t1323272590
+s136
+
+N/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib
+c000000004EC4DC5E0000000000000088
+t1321524318
+s136
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Add.tiff
+c00000000488ABF5200000000000002D8
+t1217052498
+s728
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/AddInverted.tiff
+c00000000488ABF520000000000000E5E
+t1217052498
+s3678
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Add_Pressed.tiff
+c00000000488ABF5200000000000002B0
+t1217052498
+s688
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Add_PressedInverted.tiff
+c00000000488ABF520000000000000E5E
+t1217052498
+s3678
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Popup triangle.tiff
+c00000000488ABF520000000000000176
+t1217052498
+s374
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove.tiff
+c00000000488ABF5200000000000002B6
+t1217052498
+s694
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/RemoveInverted.tiff
+c00000000488ABF520000000000006CA8
+t1217052498
+s27816
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove_Pressed.tiff
+c00000000488ABF520000000000000290
+t1217052498
+s656
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove_PressedInverted.tiff
+c00000000488ABF520000000000006C60
+t1217052498
+s27744
+
+N/Users/vkit/Desktop/VCode&VData 2.0/KappaController.h
+c00000000488C6F4800000000000004AF
+t1217163080
+s1199
+i<Cocoa/Cocoa.h>
+i"AgreementController.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m
+c00000000488C6F4800000000000028BE
+t1217163080
+s10430
+i"KappaController.h"
+
+N/Users/vkit/Desktop/VCode&VData 2.0/License.txt
+c00000000488ABF520000000000000657
+t1217052498
+s1623
+
+N/Users/vkit/Desktop/VCode&VData 2.0/Limitations.txt
+c00000000488ABF52000000000000013B
+t1217052498
+s315
+
+N/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.h
+c00000000488C3A1F00000000000005C4
+t1217149471
+s1476
+i<Cocoa/Cocoa.h>
+i"EventTrack.h"
+i"DataFileLog.h"
+i<QTKit/QTKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m
+c00000000488C3A1F0000000000001844
+t1217149471
+s6212
+i"MiniDoc.h"
+i<QTKit/QTKit.h>
+
+N/Users/vkit/Desktop/VCode&VData 2.0/VCode&VData.icns
+c00000000488ABF52000000000000BDB6
+t1217052498
+s48566
+
+N/Users/vkit/Desktop/VCode&VData 2.0/VCode&VDataDoc.icns
+c00000000488ABF52000000000000A28F
+t1217052498
+s41615
+
+N/Users/vkit/Desktop/VCode&VData 2.0/VCodeVDataDocs.pdf
+c0000000048DC786000000000003416DB
+t1222408288
+s3413723
+
+N/Users/vkit/Desktop/VCode&VData 2.0/VData.icns
+c00000000488ABF52000000000000BDB7
+t1217052498
+s48567
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app
+t1323272928
+s102
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/BDAlias.h
+t1323272915
+s2870
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/DataFileLog.h
+t1323272915
+s2152
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/DocumentController.h
+t1323272915
+s800
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/HMBlkAppKit.framework
+t1323272915
+s204
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/NJRFSObjectSelector.h
+t1323272915
+s683
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/NSImage-NJRExtensions.h
+t1323272915
+s281
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/NSString-NJRExtensions.h
+t1323272915
+s698
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/Sparkle.framework
+t1323272915
+s204
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks/TimelineVolumeTrackView.h
+t1323272915
+s1320
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Info.plist
+t1323272914
+s2331
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData
+t1323272928
+s266448
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/PkgInfo
+t1323272914
+s8
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add.tiff
+t1323272914
+s728
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/AddInverted.tiff
+t1323272915
+s3678
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_Pressed.tiff
+t1323272914
+s688
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_PressedInverted.tiff
+t1323272915
+s3678
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/CodingDocument.nib
+t1323272914
+s52025
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/Credits.rtf
+t1323272914
+s860
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1323272914
+s242
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/MainMenu.nib
+t1323272914
+s22008
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/MainMenuData.nib
+t1323272915
+s64206
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/License.txt
+t1323272915
+s1623
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Limitations.txt
+t1323272915
+s315
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Popup triangle.tiff
+t1323272914
+s374
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove.tiff
+t1323272914
+s694
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/RemoveInverted.tiff
+t1323272914
+s27816
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_Pressed.tiff
+t1323272914
+s656
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_PressedInverted.tiff
+t1323272914
+s27744
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/VCode&VData.icns
+t1323272914
+s48566
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/VCode&VDataDoc.icns
+t1323272914
+s41615
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/VCodeVDataDocs.pdf
+t1323272915
+s3413723
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/VData.icns
+t1323272915
+s48567
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AgreementController.o
+t1323272927
+s75088
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AppDelegate.o
+t1323272926
+s17336
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AudioExtractor.o
+t1323272926
+s20632
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/BDAlias.o
+t1323272921
+s24016
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickResult.o
+t1323272924
+s8168
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickyQTMovieView.o
+t1323272924
+s35664
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/CodingDocument.o
+t1323272916
+s84852
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ColorCell.o
+t1323272918
+s15228
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DataFileLog.o
+t1323272923
+s37704
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DocumentController.o
+t1323272922
+s34296
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/Event.o
+t1323272917
+s13064
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventTrack.o
+t1323272916
+s23056
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventfulController.o
+t1323272917
+s50888
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/KappaController.o
+t1323272927
+s37936
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MetricController.o
+t1323272925
+s43040
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MiniDoc.o
+t1323272928
+s35100
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MultiMovieView.o
+t1323272925
+s53168
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NJRFSObjectSelector.o
+t1323272921
+s54816
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSImage-NJRExtensions.o
+t1323272922
+s10164
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSString-NJRExtensions.o
+t1323272923
+s22668
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/PlaybackController.o
+t1323272920
+s24832
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/RealAudioTrackView.o
+t1323272926
+s31688
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineController.o
+t1323272921
+s35896
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineEventTrackView.o
+t1323272920
+s48848
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineView.o
+t1323272921
+s46356
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineVolumeTrackView.o
+t1323272924
+s31676
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackItemIndexView.o
+t1323272918
+s35008
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackListView.o
+t1323272918
+s20280
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/VCode&VData.LinkFileList
+c000000004EDF8AD20000000000000D19
+t1323272914
+s3353
+
+N/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/main.o
+t1323272916
+s4856
+
+N/Users/vkit/Desktop/VCode&VData 2.0/main.m
+c00000000488ABF5200000000000000F8
+t1217052498
+s248
+i<Cocoa/Cocoa.h>
+
+NInfo.plist
+c000000004EDF898D0000000000000792
+t1323272589
+s1938
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344965714#344965714#0(0"0(0#1#0"8636613888#0"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AgreementController.o "/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965726.626733
+e344965727.656163
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AgreementController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController primarySelected:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:66: warning: invalid receiver type 'AliasHandle'
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController secondarySelected:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:93: warning: invalid receiver type 'AliasHandle'
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController exportPanelDidEnd:returnCode:contextInfo:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: no '-exportDataToCSForTrackNamed:row:' method found
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: (Messages without a matching method signature
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: will be assumed to return 'id' and accept
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: '...' as arguments.)
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:287: warning: 'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController tableView:objectValueForTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:613: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:615: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:618: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:621: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:625: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:628: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:631: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:635: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:638: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:641: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:645: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController tableView:setObjectValue:forTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:668: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+lSLF07#2@65"Compile /Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m344965726#344965727#0(4202"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController primarySelected:]':/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:66: warning: invalid receiver type 'AliasHandle'/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController secondarySelected:]':/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:93: warning: invalid receiver type 'AliasHandle'/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController exportPanelDidEnd:returnCode:contextInfo:]':/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: no '-exportDataToCSForTrackNamed:row:' method found/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: (Messages without a matching method signature/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: will be assumed to return 'id' and accept/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:269: warning: '...' as arguments.)/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:287: warning: 'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController tableView:objectValueForTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:613: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:615: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:618: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:621: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:625: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:628: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:631: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:635: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:638: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:641: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:645: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m: In function '-[AgreementController tableView:setObjectValue:forTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m:668: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type17(22@35"Invalid receiver type 'AliasHandle'344965727#114#107#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#66#0#66#0#0"0(22@35"Invalid receiver type 'AliasHandle'344965727#337#107#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#93#0#93#0#0"0(22@51"No '-exportDataToCSForTrackNamed:row:' method found344965727#583#124#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#269#0#269#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)344965727#707#118#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#269#0#269#0#0"0(22@153"'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)344965727#1032#226#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#287#0#287#0#33"'*' is deprecated (declared at *)0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1396#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#613#0#613#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1618#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#615#0#615#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1840#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#618#0#618#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2062#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#621#0#621#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2284#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#625#0#625#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2506#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#628#0#628#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2728#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#631#0#631#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2950#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#635#0#635#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#3172#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#638#0#638#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#3394#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#641#0#641#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#3616#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#645#0#645#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#3980#222#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m238855880#668#0#668#0#0"0(0#0#57"/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m8636462144#1151"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/AgreementController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AgreementController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AppDelegate.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965726.018933
+e344965726.626546
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AppDelegate.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m344965726#344965726#0(0"0(0#0#57"/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m8642720384#1143"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AppDelegate.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AppDelegate.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AudioExtractor.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965725.108986
+e344965726.018849
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AudioExtractor.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m344965725#344965726#0(0"0(0#0#60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m8637451584#1149"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/AudioExtractor.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/AudioExtractor.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/BDAlias.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965721.226136
+e344965721.721982
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/BDAlias.o
+x/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m344965721#344965721#0(0"0(0#0#54"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m8636883904#1136"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/BDAlias.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickResult.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965723.554049
+e344965724.141561
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickResult.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m344965723#344965724#0(0"0(0#0#57"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m8634576800#1143"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickResult.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickResult.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickyQTMovieView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965724.064093
+e344965724.978209
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickyQTMovieView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m: In function '-[ClickyQTMovieView mouseDown:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: 'NSView' may not respond to '-setKeyMovie:'
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: (Messages without a matching method signature
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: will be assumed to return 'id' and accept
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m344965724#344965724#0(573"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m: In function '-[ClickyQTMovieView mouseDown:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: 'NSView' may not respond to '-setKeyMovie:'/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: (Messages without a matching method signature/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: will be assumed to return 'id' and accept/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m:19: warning: '...' as arguments.)2(22@43"'NSView' may not respond to '-setKeyMovie:'344965724#112#121#0(6@63"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m238745298#19#0#19#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)344965724#233#123#0(6@63"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m238745298#19#0#19#0#0"0(0#0#63"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m8637025024#1155"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ClickyQTMovieView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ClickyQTMovieView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/CodingDocument.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965715.264804
+e344965716.498981
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/CodingDocument.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m: In function '-[CodingDocument exportPanelDidEnd:returnCode:contextInfo:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:603: warning: 'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m: In function 'MyActionFilter':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: 'QTMovie' may not respond to '-setPlaysSelectionOnly:'
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: (Messages without a matching method signature
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: will be assumed to return 'id' and accept
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: '...' as arguments.)
+lSLF07#2@68"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m344965715#344965716#0(922"/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m: In function '-[CodingDocument exportPanelDidEnd:returnCode:contextInfo:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:603: warning: 'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m: In function 'MyActionFilter':/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: 'QTMovie' may not respond to '-setPlaysSelectionOnly:'/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: (Messages without a matching method signature/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: will be assumed to return 'id' and accept/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m:717: warning: '...' as arguments.)3(22@153"'writeToURL:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:353)344965716#137#229#0(6@60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m344963909#603#0#603#0#33"'*' is deprecated (declared at *)0(22@54"'QTMovie' may not respond to '-setPlaysSelectionOnly:'344965716#458#130#0(6@60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m344963909#717#0#717#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)344965716#588#121#0(6@60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m344963909#717#0#717#0#0"0(0#0#60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m8599442016#1149"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/CodingDocument.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/CodingDocument.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ColorCell.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965718.027819
+e344965718.735146
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ColorCell.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m344965718#344965718#0(0"0(0#0#55"/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m8637257536#1139"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/ColorCell.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/ColorCell.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DataFileLog.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965722.860742
+e344965723.553861
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DataFileLog.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m: In function '-[DataFileLog initWithPath:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m:60: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)
+lSLF07#2@65"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m344965722#344965723#0(331"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m: In function '-[DataFileLog initWithPath:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m:60: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)1(22@156"'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)344965723#103#228#0(6@57"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m238745298#60#0#60#0#33"'*' is deprecated (declared at *)0(0#0#57"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m8642501888#1143"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DataFileLog.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DocumentController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965721.901159
+e344965722.860463
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DocumentController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController movieSelected:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:33: warning: invalid receiver type 'AliasHandle'
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:33: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSMovie *' when passing argument 1 of 'setMovie:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController datafileSelected:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:47: warning: invalid receiver type 'AliasHandle'
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController tableView:objectValueForTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:119: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:121: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController tableView:setObjectValue:forTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:142: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m344965721#344965722#0(1674"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController movieSelected:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:33: warning: invalid receiver type 'AliasHandle'/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:33: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSMovie *' when passing argument 1 of 'setMovie:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController datafileSelected:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:47: warning: invalid receiver type 'AliasHandle'/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController tableView:objectValueForTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:119: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:121: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m: In function '-[DocumentController tableView:setObjectValue:forTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m:142: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type6(22@35"Invalid receiver type 'AliasHandle'344965722#118#114#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#33#0#33#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSMovie *' when passing argument 1 of 'setMovie:' from distinct Objective-C type344965722#232#228#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#33#0#33#0#0"0(22@35"Invalid receiver type 'AliasHandle'344965722#581#114#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#47#0#47#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965722#839#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#119#0#119#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965722#1068#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#121#0#121#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965722#1445#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m238745298#142#0#142#0#0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m8642979936#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/DocumentController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/Event.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965716.499596
+e344965717.090047
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/Event.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m344965716#344965717#0(0"0(0#0#51"/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m8636991136#1131"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/Event.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/Event.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventTrack.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965716.074502
+e344965716.691469
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventTrack.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m344965716#344965716#0(0"0(0#0#56"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m8637915808#1141"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventTrack.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventTrack.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventfulController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965716.691562
+e344965717.601460
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventfulController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m: In function '-[EventfulController tableView:objectValueForTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:251: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:253: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:255: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:257: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m: In function '-[EventfulController tableView:setObjectValue:forTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:274: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:276: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m344965716#344965717#0(1666"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m: In function '-[EventfulController tableView:objectValueForTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:251: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:253: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:255: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:257: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m: In function '-[EventfulController tableView:setObjectValue:forTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:274: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m:276: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type6(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#144#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#251#0#251#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#373#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#253#0#253#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#602#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#255#0#255#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#831#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#257#0#257#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#1208#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#274#0#274#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965717#1437#229#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m238745298#276#0#276#0#0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m8636494880#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/EventfulController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/EventfulController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/KappaController.o "/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965726.893367
+e344965727.828702
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/KappaController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m: In function '-[KappaController tableView:objectValueForTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:161: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:163: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:170: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:172: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:174: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:177: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:180: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:183: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:186: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:189: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:192: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:195: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:198: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m: In function '-[KappaController tableView:setObjectValue:forTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:216: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+lSLF07#2@61"Compile /Users/vkit/Desktop/VCode&VData 2.0/KappaController.m344965726#344965727#0(3316"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m: In function '-[KappaController tableView:objectValueForTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:161: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:163: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:170: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:172: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:174: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:177: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:180: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:183: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:186: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:189: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:192: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:195: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:198: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m: In function '-[KappaController tableView:setObjectValue:forTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m:216: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type14(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#130#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#161#0#161#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#348#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#163#0#163#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#566#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#170#0#170#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#784#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#172#0#172#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1002#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#174#0#174#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1220#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#177#0#177#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1438#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#180#0#180#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1656#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#183#0#183#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#1874#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#186#0#186#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2092#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#189#0#189#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2310#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#192#0#192#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2528#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#195#0#195#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#2746#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#198#0#198#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965727#3098#218#0(6@53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m238855880#216#0#216#0#0"0(0#0#53"/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m8629930368#1143"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/KappaController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/KappaController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MetricController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965724.978289
+e344965725.933595
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MetricController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m: In function '-[MetricController tableView:objectValueForTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:74: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:76: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:78: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:80: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m: In function '-[MetricController tableView:setObjectValue:forTableColumn:row:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:92: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:96: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type
+lSLF07#2@70"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m344965724#344965725#0(1640"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m: In function '-[MetricController tableView:objectValueForTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:74: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:76: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:78: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:80: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m: In function '-[MetricController tableView:setObjectValue:forTableColumn:row:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:92: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m:96: warning: incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type6(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#140#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#74#0#74#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#366#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#76#0#76#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#592#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#78#0#78#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#818#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#80#0#80#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#1188#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#92#0#92#0#0"0(22@149"Incompatible Objective-C types 'struct NSString *', expected 'struct NSNumber *' when passing argument 1 of 'compare:' from distinct Objective-C type344965725#1414#226#0(6@62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m238745298#96#0#96#0#0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m8633611104#1153"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MetricController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MetricController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MiniDoc.o "/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965727.656238
+e344965728.483851
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MiniDoc.o
+x/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m344965727#344965728#0(0"0(0#0#45"/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m8636446016#1127"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/MiniDoc.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MiniDoc.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MultiMovieView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965724.141644
+e344965725.108802
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MultiMovieView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m344965724#344965725#0(0"0(0#0#60"/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m8636763488#1149"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/MultiMovieView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/MultiMovieView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NJRFSObjectSelector.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965721.050753
+e344965721.901073
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NJRFSObjectSelector.o
+x/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m: In function '-[NJRFSObjectSelector revealInFinder:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m:144: warning: '-representedObject' not found in protocol(s)
+lSLF07#2@74"Compile /Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m344965721#344965721#0(249"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m: In function '-[NJRFSObjectSelector revealInFinder:]':/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m:144: warning: '-representedObject' not found in protocol(s)1(22@45"'-representedObject' not found in protocol(s)344965721#122#127#0(6@66"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m343124656#144#0#144#0#28"'*' not found in protocol(s)0(0#0#66"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m8636740960#1160"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NJRFSObjectSelector.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSImage-NJRExtensions.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965721.722146
+e344965722.346828
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSImage-NJRExtensions.o
+x/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m344965721#344965722#0(0"0(0#0#68"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m8636414208#1164"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSImage-NJRExtensions.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSString-NJRExtensions.o "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965722.346964
+e344965723.107339
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSString-NJRExtensions.o
+x/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m344965722#344965723#0(0"0(0#0#69"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m8636896160#1166"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/NSString-NJRExtensions.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/PlaybackController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965718.567477
+e344965720.069820
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/PlaybackController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m: In function '-[PlaybackController playAnInterval:]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: 'NSMovie' may not respond to '-setPlaysSelectionOnly:'
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: (Messages without a matching method signature
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: will be assumed to return 'id' and accept
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: '...' as arguments.)
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m344965718#344965720#0(595"/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m: In function '-[PlaybackController playAnInterval:]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: 'NSMovie' may not respond to '-setPlaysSelectionOnly:'/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: (Messages without a matching method signature/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: will be assumed to return 'id' and accept/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m:81: warning: '...' as arguments.)2(22@54"'NSMovie' may not respond to '-setPlaysSelectionOnly:'344965719#119#133#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m238745298#81#0#81#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)344965719#252#124#0(6@64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m238745298#81#0#81#0#0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m8637972480#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/PlaybackController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/PlaybackController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/RealAudioTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965725.933673
+e344965726.893289
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/RealAudioTrackView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m344965725#344965726#0(0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m8630073216#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/RealAudioTrackView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/RealAudioTrackView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineController.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965720.069994
+e344965721.050670
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineController.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m344965720#344965721#0(0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m8636391200#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineController.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineController.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineEventTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965718.735262
+e344965720.226832
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineEventTrackView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m344965718#344965720#0(0"0(0#0#68"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m8636790976#1165"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineEventTrackView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineEventTrackView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965720.226919
+e344965721.226053
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m: In function '-[TimelineView arrangeTracks]':
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: no '-isShowingSound' method found
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: (Messages without a matching method signature
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: will be assumed to return 'id' and accept
+o/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: '...' as arguments.)
+lSLF07#2@66"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m344965720#344965721#0(540"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m: In function '-[TimelineView arrangeTracks]':/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: no '-isShowingSound' method found/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: (Messages without a matching method signature/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: will be assumed to return 'id' and accept/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m:215: warning: '...' as arguments.)2(22@33"No '-isShowingSound' method found344965721#105#107#0(6@58"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m343125514#215#0#215#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)344965721#212#119#0(6@58"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m343125514#215#0#215#0#0"0(0#0#58"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m8637906432#1145"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineVolumeTrackView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965723.107425
+e344965724.064012
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineVolumeTrackView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m344965723#344965724#0(0"0(0#0#69"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m8636604960#1167"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TimelineVolumeTrackView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackItemIndexView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965717.090130
+e344965718.027630
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackItemIndexView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m344965717#344965718#0(0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m8637427488#1157"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackItemIndexView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackItemIndexView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackListView.o "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965717.601542
+e344965718.567395
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackListView.o
+x/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m344965717#344965718#0(0"0(0#0#59"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m8636319168#1147"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TrackListView.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/TrackListView.o"0#
+
+CCompileC build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/main.o "/Users/vkit/Desktop/VCode&VData 2.0/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s344965715.268082
+e344965716.074387
+r1
+xCompileC
+xbuild/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/main.o
+x/Users/vkit/Desktop/VCode&VData 2.0/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/vkit/Desktop/VCode&VData 2.0/main.m344965715#344965716#0(0"0(0#0#42"/Users/vkit/Desktop/VCode&VData 2.0/main.m8634484640#1121"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/VCode&VData.hmap" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/include" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources/i386" "-I/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/DerivedSources" -c "/Users/vkit/Desktop/VCode&VData 2.0/main.m" -o "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/main.o"0#
+
+CCopyStringsFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s344965714.735497
+e344965714.972699
+r1
+xCopyStringsFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings344965714#344965714#0(0"0(0#0#67"/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/InfoPlist.strings8636233472#368"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add.tiff" Images/Add.tiff
+s344965714.770458
+e344965714.941962
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add.tiff
+xImages/Add.tiff
+lSLF07#2@20"Copy Images/Add.tiff344965714#344965714#0(0"0(0#0#51"/Users/vkit/Desktop/VCode&VData 2.0/Images/Add.tiff8635972928#245"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Add.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/AddInverted.tiff" Images/AddInverted.tiff
+s344965715.001449
+e344965715.015167
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/AddInverted.tiff
+xImages/AddInverted.tiff
+lSLF07#2@28"Copy Images/AddInverted.tiff344965715#344965715#0(0"0(0#0#59"/Users/vkit/Desktop/VCode&VData 2.0/Images/AddInverted.tiff8636908832#253"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/AddInverted.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_Pressed.tiff" Images/Add_Pressed.tiff
+s344965714.955147
+e344965714.967958
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_Pressed.tiff
+xImages/Add_Pressed.tiff
+lSLF07#2@28"Copy Images/Add_Pressed.tiff344965714#344965714#0(0"0(0#0#59"/Users/vkit/Desktop/VCode&VData 2.0/Images/Add_Pressed.tiff8642854816#253"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Add_Pressed.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_PressedInverted.tiff" Images/Add_PressedInverted.tiff
+s344965715.001952
+e344965715.015293
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Add_PressedInverted.tiff
+xImages/Add_PressedInverted.tiff
+lSLF07#2@36"Copy Images/Add_PressedInverted.tiff344965715#344965715#0(0"0(0#0#67"/Users/vkit/Desktop/VCode&VData 2.0/Images/Add_PressedInverted.tiff8636724544#261"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Add_PressedInverted.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Popup triangle.tiff" "Images/Popup triangle.tiff"
+s344965714.972776
+e344965714.987809
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Popup triangle.tiff
+xImages/Popup triangle.tiff
+lSLF07#2@31"Copy Images/Popup triangle.tiff344965714#344965714#0(0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/Images/Popup triangle.tiff8637856640#258"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "Images/Popup triangle.tiff" --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove.tiff" Images/Remove.tiff
+s344965714.968037
+e344965714.981064
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove.tiff
+xImages/Remove.tiff
+lSLF07#2@23"Copy Images/Remove.tiff344965714#344965714#0(0"0(0#0#54"/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove.tiff8637913920#248"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Remove.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/RemoveInverted.tiff" Images/RemoveInverted.tiff
+s344965714.988506
+e344965715.001258
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/RemoveInverted.tiff
+xImages/RemoveInverted.tiff
+lSLF07#2@31"Copy Images/RemoveInverted.tiff344965714#344965715#0(0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/Images/RemoveInverted.tiff8637042560#256"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/RemoveInverted.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_Pressed.tiff" Images/Remove_Pressed.tiff
+s344965714.942223
+e344965714.955054
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_Pressed.tiff
+xImages/Remove_Pressed.tiff
+lSLF07#2@31"Copy Images/Remove_Pressed.tiff344965714#344965714#0(0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove_Pressed.tiff8634550848#256"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Remove_Pressed.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_PressedInverted.tiff" Images/Remove_PressedInverted.tiff
+s344965714.985091
+e344965715.001385
+r1
+xCopyTiffFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/Remove_PressedInverted.tiff
+xImages/Remove_PressedInverted.tiff
+lSLF07#2@39"Copy Images/Remove_PressedInverted.tiff344965714#344965715#0(0"0(0#0#70"/Users/vkit/Desktop/VCode&VData 2.0/Images/Remove_PressedInverted.tiff8637445760#264"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Images/Remove_PressedInverted.tiff --outdir "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s344965714.654787
+e344965714.668823
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf344965714#344965714#0(0"0(0#0#61"/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/Credits.rtf8637087232#370"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/Credits.rtf" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/License.txt License.txt
+s344965715.015865
+e344965715.022026
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/License.txt
+xLicense.txt
+lSLF07#2@16"Copy License.txt344965715#344965715#0(0"0(0#0#47"/Users/vkit/Desktop/VCode&VData 2.0/License.txt8636536608#342"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/License.txt" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/Limitations.txt Limitations.txt
+s344965715.015352
+e344965715.021426
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/Limitations.txt
+xLimitations.txt
+lSLF07#2@20"Copy Limitations.txt344965715#344965715#0(0"0(0#0#51"/Users/vkit/Desktop/VCode&VData 2.0/Limitations.txt8636556704#346"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/Limitations.txt" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/VCode&VData.icns VCode&VData.icns
+s344965714.981144
+e344965714.987292
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/VCode&VData.icns
+xVCode&VData.icns
+lSLF07#2@21"Copy VCode&VData.icns344965714#344965714#0(0"0(0#0#52"/Users/vkit/Desktop/VCode&VData 2.0/VCode&VData.icns8637800704#347"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/VCode&VData.icns" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/VCode&VDataDoc.icns VCode&VDataDoc.icns
+s344965714.981876
+e344965714.988442
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/VCode&VDataDoc.icns
+xVCode&VDataDoc.icns
+lSLF07#2@24"Copy VCode&VDataDoc.icns344965714#344965714#0(0"0(0#0#55"/Users/vkit/Desktop/VCode&VData 2.0/VCode&VDataDoc.icns8637682080#350"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/VCode&VDataDoc.icns" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/VCodeVDataDocs.pdf VCodeVDataDocs.pdf
+s344965715.016286
+e344965715.080013
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/VCodeVDataDocs.pdf
+xVCodeVDataDocs.pdf
+lSLF07#2@23"Copy VCodeVDataDocs.pdf344965715#344965715#0(0"0(0#0#54"/Users/vkit/Desktop/VCode&VData 2.0/VCodeVDataDocs.pdf8636491488#349"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/VCodeVDataDocs.pdf" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CCpResource build/Debug/VCode&VData.app/Contents/Resources/VData.icns VData.icns
+s344965715.080081
+e344965715.084691
+r1
+xCpResource
+xbuild/Debug/VCode&VData.app/Contents/Resources/VData.icns
+xVData.icns
+lSLF07#2@15"Copy VData.icns344965715#344965715#0(0"0(0#0#46"/Users/vkit/Desktop/VCode&VData 2.0/VData.icns8636169024#341"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/VData.icns" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources"0#
+
+CLd "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData" normal i386
+s344965728.484030
+e344965728.639852
+r1
+xLd
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData
+xnormal
+xi386
+lSLF07#2@95"Link /Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData344965728#344965728#0(0"0(0#0#0"8637856064#854"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0/build/Debug" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0" "-F/Users/vkit/Desktop/VCode&VData 2.0/3rdParty" "-F/Users/vkit/Desktop/VCode&VData 2.0" -filelist "/Users/vkit/Desktop/VCode&VData 2.0/build/VCode.build/Debug/VCode&VData.build/Objects-normal/i386/VCode&VData.LinkFileList" -mmacosx-version-min=10.5 -framework Sparkle -framework HMBlkAppKit -framework Cocoa -framework QTKit -framework QuickTime -framework Carbon -o "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/MacOS/VCode&VData"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/BDAlias.h 3rdParty/BDAlias.h
+s344965715.098146
+e344965715.111149
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/BDAlias.h
+x3rdParty/BDAlias.h
+lSLF07#2@23"Copy 3rdParty/BDAlias.h344965715#344965715#0(0"0(0#0#54"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.h8635572128#350"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/BDAlias.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/DataFileLog.h Classes/DataFileLog.h
+s344965715.099956
+e344965715.116209
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/DataFileLog.h
+xClasses/DataFileLog.h
+lSLF07#2@26"Copy Classes/DataFileLog.h344965715#344965715#0(0"0(0#0#57"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.h8635089344#353"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DataFileLog.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/DocumentController.h Classes/DocumentController.h
+s344965715.099042
+e344965715.111311
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/DocumentController.h
+xClasses/DocumentController.h
+lSLF07#2@33"Copy Classes/DocumentController.h344965715#344965715#0(0"0(0#0#64"/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.h8635309504#360"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/Classes/DocumentController.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/HMBlkAppKit.framework 3rdParty/HMBlkAppKit.framework
+s344965715.097244
+e344965715.173884
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/HMBlkAppKit.framework
+x3rdParty/HMBlkAppKit.framework
+lSLF07#2@35"Copy 3rdParty/HMBlkAppKit.framework344965715#344965715#0(0"0(0#0#66"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/HMBlkAppKit.framework8635824672#362"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/HMBlkAppKit.framework" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NJRFSObjectSelector.h 3rdParty/NJRFSObjectSelector.h
+s344965715.097729
+e344965715.111060
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/NJRFSObjectSelector.h
+x3rdParty/NJRFSObjectSelector.h
+lSLF07#2@35"Copy 3rdParty/NJRFSObjectSelector.h344965715#344965715#0(0"0(0#0#66"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.h8635716192#362"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NJRFSObjectSelector.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NSImage-NJRExtensions.h 3rdParty/NSImage-NJRExtensions.h
+s344965715.098581
+e344965715.111231
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/NSImage-NJRExtensions.h
+x3rdParty/NSImage-NJRExtensions.h
+lSLF07#2@37"Copy 3rdParty/NSImage-NJRExtensions.h344965715#344965715#0(0"0(0#0#68"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.h8635508704#364"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSImage-NJRExtensions.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/NSString-NJRExtensions.h 3rdParty/NSString-NJRExtensions.h
+s344965715.099499
+e344965715.113700
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/NSString-NJRExtensions.h
+x3rdParty/NSString-NJRExtensions.h
+lSLF07#2@38"Copy 3rdParty/NSString-NJRExtensions.h344965715#344965715#0(0"0(0#0#69"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.h8635147552#365"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/NSString-NJRExtensions.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/Sparkle.framework 3rdParty/Sparkle.framework
+s344965715.096590
+e344965715.264699
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/Sparkle.framework
+x3rdParty/Sparkle.framework
+lSLF07#2@31"Copy 3rdParty/Sparkle.framework344965715#344965715#0(0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/Sparkle.framework8635980576#358"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/3rdParty/Sparkle.framework" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CPBXCp build/Debug/VCode&VData.app/Contents/Frameworks/TimelineVolumeTrackView.h Classes/TimelineVolumeTrackView.h
+s344965715.100388
+e344965715.118712
+r1
+xPBXCp
+xbuild/Debug/VCode&VData.app/Contents/Frameworks/TimelineVolumeTrackView.h
+xClasses/TimelineVolumeTrackView.h
+lSLF07#2@38"Copy Classes/TimelineVolumeTrackView.h344965715#344965715#0(0"0(0#0#69"/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.h8634900128#365"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vkit/Desktop/VCode&VData 2.0/Classes/TimelineVolumeTrackView.h" "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Info.plist" Info.plist
+s344965714.640789
+e344965714.654686
+r1
+xProcessInfoPlistFile
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist344965714#344965714#0(0"0(0#0#46"/Users/vkit/Desktop/VCode&VData 2.0/Info.plist8612353056#307"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Info.plist"0#
+
+CStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib"
+s344965714.668895
+e344965714.770367
+r1
+xStripNIB
+x/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib
+lSLF07#2@41"StripNIB English.lproj/CodingDocument.nib344965714#344965714#0(0"0(0#0#68"/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib8636325088#308"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/usr/bin/ibtool --strip "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/CodingDocument.nib" --output-format human-readable-text "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/CodingDocument.nib"0#
+
+CStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib"
+s344965714.655594
+e344965714.735424
+r1
+xStripNIB
+x/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib344965714#344965714#0(0"0(0#0#62"/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib8636397696#296"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/usr/bin/ibtool --strip "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenu.nib"0#
+
+CStripNIB "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib"
+s344965715.016701
+e344965715.096529
+r1
+xStripNIB
+x/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib
+lSLF07#2@39"StripNIB English.lproj/MainMenuData.nib344965715#344965715#0(0"0(0#0#66"/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib8636446272#304"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /Developer/usr/bin/ibtool --strip "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app/Contents/Resources/English.lproj/MainMenuData.nib" --output-format human-readable-text "/Users/vkit/Desktop/VCode&VData 2.0/English.lproj/MainMenuData.nib"0#
+
+CTouch "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app"
+s344965728.639939
+e344965728.643367
+r1
+xTouch
+x/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app
+lSLF07#2@69"Touch /Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app344965728#344965728#0(0"0(0#0#0"8636397184#133"    cd "/Users/vkit/Desktop/VCode&VData 2.0"    /usr/bin/touch -c "/Users/vkit/Desktop/VCode&VData 2.0/build/Debug/VCode&VData.app"0#
+
